@@ -1,0 +1,797 @@
+"entreprise","firm_name","n_offres","sector_main","avg_req_exp","top_skill_req","avg_wage","addr_dept_main"
+"1Dsolutions","1Dsolutions",2,NA,NA,"équipe",700,75
+"1G-LINK CONSULTING","1G-LINK CONSULTING",2,NA,NA,"Python, SQL, équipe",40,75
+"52 Entertainment","52 Entertainment",7,NA,3,"A/B Testing, Communication, Communication Skills, English, Excel, SQL, Tableau",NA,NA
+"AB SCIENCE","AB SCIENCE",2,NA,NA,"Database, Excel, Optimization, Programming, SQL",NA,75
+"AB Tasty","AB Tasty",1,"Secteur informatique, ESN",NA,"Creativity, Database, English, Git, Optimization, Python, SQL",NA,75
+"ACCELITE","ACCELITE",1,NA,NA,"Anglais, Hadoop, Power BI, Python, SQL, Spark, Statistique, Tableau",40,75
+"ACII By Audensiel","ACII By Audensiel",2,"Secteur informatique, ESN",1,"modélisation, équipe",35,44
+"ACSSI","ACSSI",1,NA,NA,"Anglais, Data Visualization, Power BI, Tableau, équipe",NA,75
+"ACT-ON DATA","ACT-ON DATA",1,NA,NA,"AWS, Anglais, Azure, Excel, Français, Git, Reporting, Statistique, Tableau, équipe",NA,92
+"ADEO Services","ADEO Services",1,NA,NA,"Anglais, C++, Communication, Curiosité, Gestion de Projets, Git, Intelligence artificielle, Optimisation, Power BI, Programmation, Prévision, Python, SQL, Tableau, modélisation, équipe",NA,59
+"ADHERENCE CONSULTING","ADHERENCE CONSULTING",2,"Secteur informatique, ESN",7,"Bases de donnée, Git, Statistique",NA,59
+"ADONE CONSEIL","ADONE CONSEIL",1,NA,NA,"Git, Intelligence artificielle, équipe",70,75
+"AEROW","AEROW",1,NA,NA,"Anglais, Power BI",NA,75
+"AFD.TECH","AFD.TECH",3,"Secteur informatique, ESN",5,"",40,59
+"AFTERDATA","AFTERDATA",1,NA,NA,"Créativité, Français, Programmation, Python, Rapport, équipe",1,75
+"AG SOLUTION","AG SOLUTION",1,NA,NA,"Communication, Communication Skills, English, Excel, French",NA,59
+"AG2R LA MONDIALE","AG2R LA MONDIALE",1,"Banque, Assurance, Finance",1,"Statistique, équipe",NA,75
+"AG2R La Mondiale","AG2R La Mondiale",2,NA,NA,"Autonome, Autonôme, SQL, Statistique, modélisation, équipe",NA,75
+"AGH Consulting","AGH Consulting",4,"Industrie high-tech, Telecom",7,"Communication, Reporting, équipe",NA,92
+"AIA Bordeaux","AIA Bordeaux",1,NA,NA,"Autonome, Autonôme, Prévision, Statistique, modélisation, équipe",NA,33
+"AIRBUS HELICOPTERS SAS","AIRBUS HELICOPTERS SAS",3,NA,NA,"Git",NA,13
+"AIRBUS SAS","AIRBUS SAS",1,NA,NA,"AWS, Artificial intelligence, Autonomous, Collaboration, Curious, English, French, Git, Optimization, Programming, Python, Reporting, SQL, Spark, Statistical Modeling, Statistics",NA,31
+"AIS","AIS",2,"Secteur informatique, ESN",NA,"Bases de donnée, Excel, Optimisation, Power BI, SQL, équipe",NA,44
+"AIZEN RECRUITMENT","AIZEN RECRUITMENT",1,NA,NA,"Anglais, Bases de donnée, Excel, Français, Gestion de Projets, Programmation, modélisation, équipe",NA,75
+"ALSTOM","ALSTOM",3,NA,NA,"Python",NA,93
+"ALTEN","ALTEN",48,"Secteur informatique, ESN",0,"Reporting, équipe",NA,92
+"APHP DSI","APHP DSI",13,NA,2,"Deep Learning",NA,NA
+"APRIL","APRIL",2,"Banque, Assurance, Finance",NA,"Deep Learning",NA,69
+"ARKEON ENERGY","ARKEON ENERGY",1,NA,NA,"Communication, Excel, French, Optimisation, Optimization, Programmation, Python, Rapport, Résolution de Problèmes, Statistique, TensorFlow, modélisation, équipe",NA,14
+"ARMOR MECA DEVELOPPEMENT","ARMOR MECA DEVELOPPEMENT",1,NA,NA,"Excel, Programmation, Prévision, Rapport, Reporting, Rigueur, Statistique, Tableau, équipe",30,22
+"ASI","ASI",4,"Secteur informatique, ESN",7,"Git, SQL, équipe",NA,69
+"AUCHAN RETAIL INTERNATIONAL","AUCHAN RETAIL INTERNATIONAL",1,NA,NA,"Anglais, Base de donnée, Communication, Git, Reporting, SQL, Statistique, Visualisation de donnée, équipe",NA,59
+"AUTOMOTIVE CELLS COMPANY - ACC","AUTOMOTIVE CELLS COMPANY - ACC",5,"Industrie Manufacturière",3,"Database",NA,33
+"AVISIA","AVISIA",2,NA,NA,"AWS, Azure, Excel, Python, SQL, équipe",NA,75
+"AXA","AXA en France",16,"Banque, Assurance, Finance",2,"équipe",800,92
+"AXEAL","AXEAL",2,"Services aux Entreprises",0,"SQL, équipe",36,69
+"AXSANT","AXSANT",1,NA,NA,"Anglais, Excel, Optimisation, Power BI, Programmation, Prévision, Reporting, SQL, Tableau, équipe",50,75
+"AZAP","AZAP",2,NA,NA,"Anglais, Français, Programmation, Prévision, Statistique, équipe",NA,75
+"Abeille assurances","Abeille assurances",2,NA,NA,"Deep Learning, Français, équipe",NA,92
+"Abil Ressources","Abil Ressources",1,"Services aux Entreprises, Secteur informatique, ESN",1,"Deep Learning",45,94
+"Aboro","Aboro",1,NA,NA,"Base de donnée, Communication, Créativité, Curiosité, Excel, Power BI, Programmation, Python, Rapport, Rigueur, SQL, Statistique, Tableau, équipe",NA,NA
+"Abylsen","Abylsen",5,"Secteur informatique, ESN",1,"Deep Learning",35,13
+"Accenture France","Accenture France",60,"Secteur informatique, ESN",6.4,"Créativité, Git",NA,6
+"AccorCorpo","AccorCorpo",1,NA,NA,"AWS, Anglais, Apprentissage profond, Collaboration, Communication, Excel, Français, Git, Prévision, Python, SQL, équipe",NA,92
+"Acensi","Acensi",2,"Services aux Entreprises",7,"Git, équipe",45,33
+"Aceo Tech","Aceo Tech",1,NA,NA,"Anglais, Excel, Gestion de Projets, équipe",NA,63
+"Actinvision","Actinvision",2,NA,NA,"Anglais, Autonome, Autonôme, Azure, Bases de donnée, Collaboration, Créativité, Curiosité, Dataviz, Optimisation, Programmation, Rapport, SQL, Tableau, modélisation, équipe",37.5,67
+"Activus Group","Activus Group",8,"Secteur informatique, ESN",3.25,"équipe",45.4,31
+"Adalid","Adalid",44,NA,NA,"Reporting, Statistique",NA,59
+"Adapt rh","Adapt rh",1,"Services aux Entreprises",7,"Autonome, Autonôme, Azure, Power BI, Proactive, Reporting, équipe",60,75
+"Adequation","Adequation",1,"Services aux Entreprises, Immobilier",7,"Git, Optimisation, équipe",NA,NA
+"Adikteev","Adikteev",4,"Secteur informatique, ESN",NA,"Communication, Creativity, Deep Learning, English, Français, French, Python, SQL",NA,75
+"Adoc Talent Management","Adoc Talent Management",1,"Services aux Entreprises",NA,"Anglais, Azure, Bases de donnée, Communication, Communication Skills, Curiosité, Database, English, Français, French, Programmation, Programming, Python, Reporting, Résolution de Problèmes, SQL, Statistique, collecte de données, data collection, modélisation, équipe",NA,75
+"Adod","Adod",1,"Secteur informatique, ESN",7,"AWS, Azure, Prévision, SQL, Spark, équipe",NA,69
+"Adsearch","Adsearch",15,"Services aux Entreprises",1,"équipe",48.6666666666667,44
+"Adway Conseil","Adway Conseil",1,NA,NA,"Anglais, Excel, Gestion du Temps, Git, Programmation, Python, Statistique, modélisation, équipe",NA,92
+"Agorastore","Agorastore",7,NA,NA,"AWS, Anglais, Collaboration, Curiosité, Git, Power BI, Programmation, Python, Rapport, Rigueur, Résolution de Problèmes, SQL, Tableau, modélisation, équipe",NA,NA
+"Air France","Air France",1,NA,NA,"Optimisation, Programmation, Python, modélisation",NA,95
+"Air Liquide","Air Liquide",8,"Industrie Pétrolière, Pétrochimie",0,"Git",NA,75
+"Airbus","Airbus",4,NA,NA,"Anglais, Français, Git, Python, équipe",NA,13
+"Aircall","Aircall",2,"Secteur informatique, ESN",0,"Autonomous, Communication, Communication Skills, Curious, English, Excel, French, Python, SQL",NA,75
+"Aixial","Aixial",1,NA,NA,"Artificial intelligence, Data Visualization, Power BI, Programming, Python, Statistics, Tableau, TensorFlow, data collection",NA,92
+"Akkion Recruitment","Akkion Recruitment",1,NA,NA,"Autonome, Autonôme, Bases de donnée, Collaboration, Excel, Programmation, Python, SQL, Statistique, équipe",NA,60
+"Akkodis","Akkodis",2,"Secteur informatique, ESN",1,", Bases de donnée, Excel, Python, Tableau, Visualisation de donnée, équipe",35,63
+"Algoscope","Algoscope",1,NA,NA,"Intelligence artificielle, PyTorch, Python, TensorFlow, équipe",1,NA
+"Alma","Alma",1,"Banque, Assurance, Finance",NA,"Collaboration, Communication, Communication Skills, Data Visualization, Database, English, Excel, Proactive, Project Management, Python, SQL, Tableau",NA,75
+"Alpee","Alpee",3,"Secteur Energie, Environnement",1,"",36.6666666666667,74
+"Alstom","Alstom",2,"Secteur Energie, Environnement",NA,"Attention to Detail, Collaboration, English, Excel, French, Git, Python, Statistics, Team Player",NA,41
+"Alteca","Alteca",7,"Secteur informatique, ESN",0.714285714285714,"équipe",50,59
+"Alteia","Alteia",1,NA,NA,"Deep Learning",NA,NA
+"Altelios Technology","Altelios Technology",1,NA,NA,"Anglais, Python, SQL, Statistique, Tableau, Visualisation de donnée, équipe",45,92
+"Altelios Technology Group","Altelios Technology Group",10,"Secteur informatique, ESN",4,"équipe",43,92
+"Amazon","Amazon",3,"Média, Internet, Communication",0,"AWS, Communication",NA,33
+"Amiltone","Amiltone",2,"Secteur informatique, ESN",7,"Google Cloud, Power BI, Programmation, SQL, Tableau, équipe",31.5,59
+"Anderson RH","Anderson RH",1,"Services aux Entreprises",1,"English, Statistics",NA,NA
+"Andrice","Andrice",1,"Services aux Entreprises",7,"AWS, Azure, Collaboration, Hadoop, Programmation, Python, Spark, Statistique, modélisation, équipe",NA,69
+"Aneo","Aneo",1,NA,NA,"Autonome, Autonôme, Collaboration, Français, Git, Intelligence artificielle, PyTorch, Python, TensorFlow, équipe",1,92
+"Anywr freelance","Anywr freelance",1,NA,NA,"Communication, Reporting",NA,59
+"Aosis","Aosis",1,NA,NA,"C++, Forecasting, Git, NLP, Python, Statistique, équipe",45,92
+"Apple","Apple",1,NA,NA,"Deep Learning",NA,75
+"Apside","Apside",12,"Secteur informatique, ESN",5,"Anglais, équipe",40,6
+"AptarGroup, Inc.","AptarGroup, Inc.",1,NA,NA,"Autonome, Autonôme, Bases de donnée, Collaboration, Communication, Excel, Python, Rapport, Résolution de Problèmes, SQL, Statistique, Tableau, TensorFlow, équipe",NA,27
+"Aquila Data Enabler","Aquila Data Enabler",3,NA,NA,"Deep Learning",NA,92
+"Arcom","Arcom",1,NA,NA,"Anglais, Collaboration, Communication, Programmation, Python, Rigueur, Statistique, équipe",NA,75
+"Argon & Co","Argon & Co",1,NA,NA,"Deep Learning",1,92
+"Arkema","Arkema",1,NA,NA,"Excel, Français, Power BI, Rapport, Tableau, Visualisation de donnée, équipe",NA,92
+"Artefact","Artefact",7,"Secteur informatique, ESN",0.333333333333333,"Excel, Git",NA,75
+"Artelia","Artelia",1,NA,NA,"Anglais, Bases de donnée, Communication, Curiosité, Git, Programmation, Python, Rapport, Rigueur, Statistique, VBA, modélisation, équipe",NA,38
+"Artelys","Artelys",7,NA,3,"Deep Learning",NA,NA
+"Artemys Agil-IT (groupe Artemys)","Artemys Agil-IT (groupe Artemys)",1,NA,NA,"Excel, Intelligence artificielle, Programmation, Python, SQL, équipe",30,79
+"Assurances Crédit Mutuel  GIE","Assurances Crédit Mutuel  GIE",1,"Banque, Assurance, Finance",NA,"Autonome, Autonôme, Collaboration, Communication, Compétences en Présentation, Excel, Git, Programmation, Python, SQL, Statistique, modélisation, équipe",50,67
+"Assurant","Assurant",1,"Banque, Assurance, Finance",0,"Communication, Optimisation, Rapport, Reporting, équipe",NA,13
+"Astek","Astek",33,"Secteur informatique, ESN",4.33333333333333,"Git, équipe",NA,75
+"Atos","Atos",6,"Secteur informatique, ESN",0.75,"équipe",NA,33
+"Aubay","Aubay",3,"Secteur informatique, ESN",1,"équipe",NA,75
+"Auchan Retail France","Auchan Retail France",1,NA,NA,"Dataviz, Git, Google Cloud, Reporting, SQL, Tableau, équipe",NA,59
+"Audensiel Technologies","Audensiel Technologies",3,"Secteur informatique, ESN",7,"équipe",NA,33
+"Avanade","Avanade",1,NA,NA,"Deep Learning",NA,75
+"Avient","Avient",1,NA,NA,"AWS, Collaboration, Communication, Communication Skills, Creativity, Excel, Time Management",NA,1
+"Axereal","Axereal",1,"Industrie Agro-alimentaire",NA,"Attention to Detail, Collaboration, Communication, Communication Skills, Database, English, French, Git",NA,45
+"Ayming","Ayming",1,NA,NA,"Créativité, Excel, Git, Optimisation, Power BI, VBA",NA,92
+"Azura Group / Disma Interational","Azura Group / Disma Interational",2,"Distribution, Commerce de gros",7,"Bases de donnée, Intelligence artificielle, Reporting, Tableau",NA,66
+"BAXTER","BAXTER",1,NA,NA,"Anglais, Communication, Excel, Power BI, Programmation, Python, Rapport, SQL, Statistique, Tableau, Visualisation de donnée, équipe",NA,78
+"BD","BD",1,NA,NA,"Anglais, Base de donnée, Excel, Français, Power BI, Prévision, Rapport, Reporting, Rigueur, Tableau, équipe",NA,38
+"BEEZEN","BEEZEN",2,NA,NA,"SQL",400,92
+"BNP Paribas","BNP Paribas",8,"Banque, Assurance, Finance",0,"équipe",NA,93
+"BPCE SA","BPCE SA",8,"Banque, Assurance, Finance",7,"équipe",NA,75
+"BPCE Solutions informatiques","BPCE Solutions informatiques",5,"Banque, Assurance, Finance",NA,"SQL, équipe",NA,44
+"BPGrandOuest","BPGrandOuest",1,NA,NA,"Bases de donnée, Curiosité, Power BI, Rigueur, SQL, Statistique, équipe",NA,44
+"BRGM","BRGM",5,"Service public des collectivités territoriales",0,"Python, Rapport, modélisation",NA,45
+"BSPORT SOLUTION","BSPORT SOLUTION",7,NA,NA,"AWS, Database, Optimisation, Proactive, Python, SQL",NA,NA
+"BUSINESS INSIGHT","BUSINESS INSIGHT",1,NA,NA,"Anglais, English, Français, French, Power BI, Programmation, Tableau, équipe",NA,NA
+"BUT","BUT",2,"Distribution, Commerce de gros",NA,"Autonome, Autonôme, Bases de donnée, Excel, Git, Power BI, Python, Reporting, SQL, Statistique, Tableau, collecte de données, équipe",NA,77
+"Back Market","Back Market",4,"Média, Internet, Communication",0,"English, French, Python",NA,75
+"Balenciaga","Balenciaga",1,NA,NA,"Curious, Data Visualization, English, Excel, Reporting, Tableau, Team Player, VBA",NA,75
+"Banque Populaire Méditerranée","Banque Populaire Méditerranée",1,NA,NA,"Power BI, Programmation, Reporting, Rigueur, SQL, Statistique, Tableau, modélisation, équipe",NA,13
+"Banque Populaire Rives de Paris","Banque Populaire Rives de Paris",1,NA,NA,"Bases de donnée, Français, Power BI, Programmation, Python, Rapport, Reporting, Rigueur, SQL, Statistique, Tableau, équipe",NA,75
+"Banque de France","Banque de France",3,NA,NA,"Statistique, équipe",NA,75
+"Bartle","Bartle",1,"Services aux Entreprises",NA,"Statistique, modélisation, équipe",NA,75
+"Bayer","Bayer",1,NA,NA,"Anglais, Bases de donnée, Collaboration, Communication, Curiosité, Excel, Programmation, Python, SQL, équipe",NA,69
+"BearingPoint France","BearingPoint France",3,"Services aux Entreprises",NA,"Reporting, équipe",NA,92
+"Believe","Believe",2,"Média, Internet, Communication",7,"AWS, Anglais, Excel, Français, Git, Python, SQL, Statistique, équipe",NA,75
+"Bertrandt","Bertrandt",4,"Services aux Entreprises, Industrie Aéronautique, Aérospatial",7,"équipe",NA,31
+"Betclic Group","Betclic Group",4,NA,NA,"Communication, SQL",NA,33
+"BforBank","BforBank",1,NA,NA,"Autonome, Autonôme, Base de donnée, Collaboration, Excel, Git, Proactif, Reporting, Résolution de Problèmes, SQL, équipe",NA,92
+"Blue-Consulting","Blue-Consulting",2,NA,NA,"Deep Learning, Python",400,75
+"Bolloré Group","Bolloré Group",1,NA,NA,"Base de donnée, Excel, Power BI, Reporting, Tableau",NA,92
+"Boston Consulting Group","Boston Consulting Group",2,NA,NA,"Collaboration, Curious, Git, Project Management, Python, Spark, Statistics",NA,75
+"Botify","Botify",2,"Services aux Entreprises",NA,"Collaboration, Communication, Communication Skills, English, Excel, Forecasting, French, Git, Natural Language Processing, Optimization, Python, SQL, Statistics, Team Player",NA,75
+"Boulanger","Boulanger",1,"Distribution, Commerce de gros",7,"Reporting, équipe",45,59
+"Boursorama","Boursorama",2,NA,NA,"Python, Reporting, Statistique, équipe",NA,92
+"Bouygues Construction IT","Bouygues Construction IT",2,"BTP",NA,"Optimisation, Power BI, Python, équipe",NA,78
+"Bouygues Telecom","Bouygues Telecom",5,"Industrie high-tech, Telecom",1,"équipe",NA,92
+"Bouygues Travaux Publics","Bouygues Travaux Publics",1,"BTP",0,"Reporting, équipe",NA,26
+"Brainpower","Brainpower",1,"Secteur informatique, ESN",NA,"Autonome, Autonôme, Git, Optimisation, équipe",NA,38
+"Brittany Ferries","Brittany Ferries",1,"Tourisme, Hôtellerie, Loisirs",1,"Prévision, équipe",NA,29
+"Bureau Veritas","Bureau Veritas",3,"Secteur informatique, ESN",0,"Communication",NA,69
+"Business & Decision","Business & Decision",4,NA,NA,"Git, équipe",NA,75
+"Business & Décision","Business & Décision",17,"Secteur informatique, ESN",7,"équipe",NA,31
+"CAFPI","CAFPI",1,"Banque, Assurance, Finance",0,"Git, Intelligence artificielle, Reporting, équipe",NA,64
+"CCPA GROUP","CCPA GROUP",1,NA,NA,"Créativité, Curiosité, Git, Power BI, Python, Rigueur, Résolution de Problèmes, SQL, collecte de données, modélisation, équipe",NA,NA
+"CEA","CEA",1,NA,NA,"Deep Learning",NA,91
+"CEB","CEB",1,NA,NA,"Adaptabilité, Anglais, Base de donnée, Bases de donnée, Collaboration, Communication, Excel, Français, Power BI, Python, Rapport, Reporting, Résolution de Problèmes, SQL, Statistique, Tableau, Visualisation de donnée, collecte de données, modélisation, équipe",5,75
+"CENOVA","CENOVA",2,NA,NA,"Anglais, Azure, Curiosité, Git, Python, Rapport, équipe",NA,59
+"CEREG TERRITOIRES","CEREG TERRITOIRES",1,NA,NA,"Base de donnée, Git, Programmation, Python, SQL, Tableau, équipe",28,44
+"CGI","CGI",67,"Secteur informatique, ESN",1.6,"Excel",NA,31
+"CGI FINANCE","CGI FINANCE",1,NA,NA,"Azure, Collaboration, Français, Git, Proactif, Tableau, équipe",NA,59
+"CHAPS VISION","CHAPS VISION",2,NA,NA,"Anglais, Communication, Excel, Français, Git, Python, équipe",NA,75
+"CHARLI GROUP","CHARLI GROUP",1,NA,NA,"AWS, Anglais, Autonome, Autonôme, Collaboration, Git, Programmation, Programming, Python, Spark, équipe",NA,92
+"CHD Vendée - DRH","CHD Vendée - DRH",1,NA,NA,"Deep Learning",NA,85
+"CHR Numérique","CHR Numérique",1,"Secteur informatique, ESN",1,"équipe",NA,29
+"CHRONOPOST","CHRONOPOST",1,NA,NA,"Collaboration, Excel, Programmation, Prévision, Python, Reporting, Tableau",NA,75
+"CHRU de Brest","CHRU de Brest",1,NA,NA,"Deep Learning",NA,29
+"CIRIL GROUP","CIRIL GROUP",3,"Secteur informatique, ESN",1,"Bases de donnée, Statistique, équipe",NA,13
+"CLAMAE GROUP","CLAMAE GROUP",1,NA,NA,"Base de donnée, Excel, Français, Python, SQL, Statistique, Tableau, modélisation, équipe",NA,75
+"CLS","CLS",1,NA,NA,"Deep Learning",NA,31
+"CLS – Collecte Localisation Satellites","CLS – Collecte Localisation Satellites",1,"Industrie high-tech, Telecom",0,"Deep Learning",NA,31
+"CNAV","CNAV",1,NA,NA,"Bases de donnée, Excel, SQL, VBA",36,75
+"CNES - Centre National d'Etudes Spatiales","CNES - Centre National d'Etudes Spatiales",2,NA,NA,"Collaboration, Database, Programming, modélisation",NA,91
+"CNP Assurances","CNP Assurances",6,"Banque, Assurance, Finance",0.666666666666667,"Deep Learning",NA,92
+"CNRS","CNRS",2,NA,NA,"Anglais, Communication, Contrôle de version, Gestion de Projets, Git, Programmation, Python, Statistique, modélisation, équipe",2,38
+"COFIDIS","COFIDIS",2,NA,NA,"Autonome, Autonôme, Optimisation, Programmation, Rigueur, Statistique, Tableau, équipe",35,59
+"COLLINS AEROSPACE","COLLINS AEROSPACE",1,NA,NA,"Anglais, Collaboration, Curiosité, Excel, Prévision, Reporting, Rigueur, Tableau, équipe",NA,27
+"CPAM de la Marne","CPAM de la Marne",1,NA,NA,"Bases de donnée, Excel, Power BI, Programmation, Rigueur, SQL, Statistique, Tableau, VBA, équipe",28,51
+"CS Group","CS Group",9,"Secteur informatique, ESN",5.44444444444444,"",NA,64
+"Caisse d'Epargne Aquitaine Poitou Charentes","Caisse d'Epargne Aquitaine Poitou Charentes",1,NA,NA,"Base de donnée, Collaboration, Communication, Intelligence artificielle, Power BI, SQL, Tableau, équipe",NA,33
+"Caisse d'Epargne Grand Est Europe","Caisse d'Epargne Grand Est Europe",1,NA,NA,"Curiosité, Français, Power BI, Python, Rigueur, SQL, modélisation, équipe",NA,57
+"Caisse d'Epargne Rhône Alpes","Caisse d'Epargne Rhône Alpes",2,NA,NA,"Bases de donnée, Excel, Power BI, Rigueur, SQL",NA,38
+"Caisse des Dépôts","Caisse des Dépôts",3,NA,NA,"équipe",NA,75
+"Caisse des Dépôts et Consignations","Caisse des Dépôts et Consignations",1,NA,NA,"Anglais, Excel, Power BI, Programmation, Prévision, Python, Rapport, Reporting, SQL, Tableau, VBA, modélisation, équipe",NA,75
+"Canal Plus","Canal Plus",1,"Média, Internet, Communication",7,"AWS, Anglais, Collaboration, Git, Python, Spark, équipe",NA,92
+"Capgemini","Capgemini",16,"Secteur informatique, ESN",1.33333333333333,"équipe",NA,44
+"Capgemini Invent","Capgemini Invent",47,NA,NA,"Anglais, Collaboration, Curiosité, Excel, Git, équipe",NA,75
+"Capital Management Fund","Capital Management Fund",2,NA,NA,"Collaboration, Deep Learning, Python, Statistics",NA,75
+"Cardiologs","Cardiologs",2,"Secteur informatique, ESN",0,"Deep Learning",NA,75
+"Carrefour","Carrefour",21,"Distribution, Commerce de gros",0,"équipe",NA,91
+"Cdiscount","Cdiscount",4,"Distribution, Commerce de gros",1,"Deep Learning, équipe",NA,33
+"Cdiscount stage","Cdiscount stage",3,"Distribution, Commerce de gros",0,"Français",NA,33
+"Cegid","Cegid",1,NA,NA,"Anglais, Collaboration, Curiosité, Excel, Reporting, Tableau, équipe",40,69
+"Celad","Celad",5,"Secteur informatique, ESN",7,"Python",35,92
+"Cenova","Cenova",7,NA,2,"AWS, Anglais, Autonome, Autonôme, Azure, Power BI, Proactif, Python, Rapport, SQL, Statistique, Tableau, modélisation, équipe",NA,NA
+"Centre Hospitalier Départemental Vendée Site de La Roche sur Yon","Centre Hospitalier Départemental Vendée Site de La Roche sur Yon",1,NA,NA,"Deep Learning",NA,85
+"Centre Hospitalier Départemental de Vendée","Centre Hospitalier Départemental de Vendée",1,NA,NA,"Deep Learning",NA,85
+"Certideal","Certideal",2,"Distribution, Commerce de gros",0,"French, équipe",NA,92
+"Ceva Logistics","Ceva Logistics",2,NA,NA,"Communication, Creativity, Excel, Git",NA,13
+"Chanel","Chanel",3,"Industrie Manufacturière",NA,"Deep Learning",NA,75
+"Chela+","Chela+",1,NA,NA,"Anglais, Base de donnée, Français, Python, Statistique, TensorFlow, équipe",NA,94
+"Cherche Susan Désespérément","Cherche Susan Désespérément",1,NA,NA,"Autonome, Autonôme, Prévision, Python, SQL, Statistique, Volonté d'Apprendre, modélisation, équipe",NA,75
+"Christian Dior","Christian Dior",2,"Industrie Manufacturière",7,"Deep Learning",NA,92
+"Civils de la Défense","Civils de la Défense",1,NA,NA,"Apprentissage profond, Communication, Git, Intelligence artificielle, Programmation, Python, Rapport, Statistique, équipe",NA,75
+"Claranet","Claranet",4,"Secteur informatique, ESN",7,"Git, équipe",NA,59
+"Cleeven Se","Cleeven Se",1,NA,NA,"Anglais, Excel, Optimisation, Programmation, Python, Statistique, modélisation, équipe",25,6
+"Clémentine","Clémentine",1,NA,NA,"Anglais, Bases de donnée, Collaboration, Communication, Excel, Git, Power BI, Rapport, SQL, Statistique, Tableau, équipe",NA,75
+"Coface","Coface",7,NA,NA,"Attention to Detail, Communication, Data Visualization, Database, Database Management, English, Excel, French, Power BI, Presentation Skills, Statistics",NA,NA
+"Cognizant","Cognizant",1,NA,NA,"Power BI",NA,75
+"Colas","Colas",1,NA,NA,"Git, Power BI, Statistique",NA,54
+"Comptalents","Comptalents",1,NA,NA,"Anglais, Base de donnée, Collaboration, Excel, Power BI, Reporting, Rigueur, équipe",35,95
+"Consept Ingenierie","Consept Ingenierie",1,"Secteur informatique, ESN",7,"",30,35
+"Consort Group","Consort Group",2,"Secteur informatique, ESN",1,"Communication, Hadoop, Python, SQL, équipe",NA,33
+"Consortia","Consortia",7,NA,NA,"Communication, Hadoop, Optimisation, SQL, Spark, modélisation, équipe",NA,NA
+"Contexte","Contexte",7,NA,5,"Collaboration, Python, SQL, Statistique, Tableau, Visualisation de donnée, équipe",NA,NA
+"Continental","Continental",2,NA,NA,"Communication, Communication Skills, Data Visualization, English, Excel, Git, Power BI, Programming, Python, Reporting, SQL, Statistics",NA,31
+"Coperneec","Coperneec",2,NA,NA,"Deep Learning",NA,75
+"Council of Europe Development Bank","Council of Europe Development Bank",1,NA,NA,"Attention to Detail, English, Excel, French, Power BI, Python, Reporting, SQL, Statistics, Tableau, data collection",NA,75
+"Criteo","Criteo",2,"Média, Internet, Communication",NA,"Communication, Communication Skills, Excel, Python, Statistics",NA,75
+"Crédit Agricole Assurances","Crédit Agricole Assurances",9,"Banque, Assurance, Finance",4,"équipe",NA,75
+"Crédit Agricole CIB","Crédit Agricole CIB",1,"Banque, Assurance, Finance",0,"Deep Learning",NA,92
+"Crédit Agricole Centre Loire","Crédit Agricole Centre Loire",1,"Banque, Assurance, Finance",0,"équipe",NA,45
+"Crédit Agricole Champagne Bourgogne","Crédit Agricole Champagne Bourgogne",2,"Banque, Assurance, Finance",1,"Bases de donnée, Collaboration, modélisation, équipe",45,21
+"Crédit Agricole Consumer Finance","Crédit Agricole Consumer Finance",8,NA,NA,"équipe",NA,91
+"Crédit Agricole Group Infrastructure Plateform","Crédit Agricole Group Infrastructure Plateform",1,"Banque, Assurance, Finance",1,"équipe",NA,34
+"Crédit Agricole S.A.","Crédit Agricole S.A.",1,NA,NA,"Anglais, Bases de donnée, Proactif, Python, Statistique, VBA, équipe",NA,92
+"Crédit Agricole des régions du Centre","Crédit Agricole des régions du Centre",1,NA,NA,"Python, équipe",NA,45
+"Crédit Agricole du Nord Est","Crédit Agricole du Nord Est",2,"BEP, CAP, Banque, Assurance, Finance",0,"Français, équipe",NA,51
+"Cyllene","Cyllene",28,NA,4,"AWS, Azure, Python, SQL",45,NA
+"D3S","D3S",1,NA,NA,"Deep Learning",50,38
+"DATASCIENTEST","DATASCIENTEST",1,NA,NA,"AWS, Anglais, Azure, Collaboration, Dataviz, Git, équipe",NA,92
+"DAVIDSON","DAVIDSON",1,NA,NA,"Curious, English, Excel, Natural Language Processing, Python, SQL",NA,92
+"DAVRICOURT","DAVRICOURT",5,"Secteur informatique, ESN",NA,"équipe",NA,59
+"DECIDEOM","DECIDEOM",1,NA,NA,"AWS, Azure, Base de donnée, Français, Power BI, Programmation, Python, SQL, Statistique, Tableau, équipe",40,59
+"DECILIA","DECILIA",1,NA,NA,"Collaboration, Power BI, Programmation, Python, Reporting, SQL, Tableau, équipe",38,92
+"DEMETER","DEMETER",1,"Services aux Entreprises",1,"Excel, Python, Spark, Statistique, modélisation",50,92
+"DGTL Performance","DGTL Performance",2,"Secteur informatique, ESN",NA,"Autonomous, Azure, Curious, Database, English, Power BI, SQL",NA,78
+"DIAMIDEX","DIAMIDEX",1,NA,NA,"Deep Learning",35,NA
+"DIOT-SIACI","DIOT-SIACI",1,"Banque, Assurance, Finance",1,"Collaboration, Intelligence artificielle, Rapport, Reporting, équipe",50,75
+"Dalkia","Dalkia",1,NA,NA,"Excel, Reporting, Rigueur, SQL, équipe",NA,49
+"Danem People France","Danem People France",2,NA,NA,"Français, Git, Google Cloud, Python, SQL, Tableau, équipe",75,75
+"Danone","Danone",5,"Industrie Agro-alimentaire",0,"Excel, équipe",NA,75
+"Dassault Aviation","Dassault Aviation",1,NA,NA,"Anglais, Autonome, Autonôme, Bases de donnée, Français, Prévision, équipe",NA,NA
+"Dassault Systèmes","Dassault Systèmes",11,NA,NA,"équipe",NA,78
+"Data Recrutement","Data Recrutement",46,NA,NA,"Python, équipe",40,75
+"DataKhi","DataKhi",1,NA,NA,"Power BI, Programmation, Python, Rapport, Reporting, SQL, Statistique, équipe",35,59
+"DataScientest","DataScientest",2,NA,NA,"Deep Learning, Programmation",17.5,75
+"Datadog","Datadog",3,NA,NA,"Collaboration, Creativity, Excel, Git",NA,75
+"Dataiku","Dataiku",1,NA,NA,"AWS, Autonomous, Collaboration, Communication, Communication Skills, Curious, Git, Python",NA,75
+"Datascientest","Datascientest",14,NA,1.5,"Python",36,NA
+"Datawords","Datawords",1,"Secteur informatique, ESN",NA,"Git, Optimisation, Rapport, Reporting, Tableau, équipe",NA,92
+"Davidson Consulting","Davidson Consulting",10,"Secteur informatique, ESN",1,"",34,35
+"Deezer","Deezer",3,"Média, Internet, Communication",0,"Attention to Detail, Business Acumen, Data Visualization, English, French, SQL, Tableau",NA,75
+"Deloitte","Deloitte",8,"Services aux Entreprises",0.333333333333333,"Anglais, Python, SQL, Statistique, équipe",NA,92
+"Descartes Underwriting","Descartes Underwriting",11,"Banque, Assurance, Finance",0,"Communication, English, Excel",NA,75
+"Devoteam","Devoteam",3,"Secteur informatique, ESN",NA,"Git, équipe",NA,92
+"DialOnce","DialOnce",1,NA,NA,"Deep Learning",NA,75
+"DigiDiz - Staff & Go","DigiDiz - Staff & Go",1,NA,NA,"Autonome, Autonôme, Collaboration, Créativité, Excel, Français, Git, Optimisation, Programmation, Prévision, Rapport, Statistique, collecte de données, équipe",NA,68
+"Digiwide","Digiwide",1,NA,NA,"Anglais, Collaboration, Français, Git, Python, modélisation, équipe",NA,33
+"Direction Générale de l'Armement","Direction Générale de l'Armement",1,NA,NA,"Communication, Python, Visualisation de donnée, équipe",NA,35
+"Direction interministérielle du numérique (DINUM) – Service du Premier ministre","Direction interministérielle du numérique (DINUM) – Service du Premier ministre",7,NA,NA,"Bases de donnée, Git, Python, Rigueur, Spark, équipe",NA,NA
+"Docaposte","Docaposte",4,"Secteur informatique, ESN",1,"Deep Learning, équipe",NA,69
+"Docaret","Docaret",1,NA,NA,"Bases de donnée, Collaboration, Communication, Excel, Python, VBA",38,33
+"Doctolib","Doctolib",2,NA,NA,"Collaboration, Deep Learning, English, NLP",NA,75
+"Département de Saône-et-Loire","Département de Saône-et-Loire",1,NA,NA,"Collaboration, Communication, Excel, Français, Git, Programmation, Python, Rigueur, Statistique, Tableau, VBA, équipe",NA,NA
+"Département du Val-de-Marne","Département du Val-de-Marne",1,NA,NA,"Bases de donnée",NA,NA
+"E.Leclerc","E.Leclerc",1,NA,NA,"Autonome, Autonôme, Bases de donnée, Collaboration, Communication, Optimisation, Proactif, Proactive, Python, R Studio, Rapport, SQL, Statistique, Tableau, équipe",NA,40
+"EASY CASH","EASY CASH",1,NA,NA,"Curiosité, Git, Programmation, Python, Statistique, Tableau, équipe",NA,NA
+"EASYVISTA","EASYVISTA",1,NA,NA,"Français, NLP, Programmation, Prévision, Python, Statistique, équipe",NA,38
+"EDF","EDF",5,"Secteur Energie, Environnement",0,"équipe",NA,92
+"EFFi GEMY","EFFi GEMY",2,NA,NA,"Python, Statistique, équipe",NA,NA
+"ELAP","ELAP",1,NA,NA,"Autonome, Autonôme, Communication, Excel, Programmation, Prévision, PyTorch, Python, Rigueur, TensorFlow, équipe",NA,75
+"EMERTON GROUP","EMERTON GROUP",3,NA,NA,"AWS, Azure, Business Acumen, Communication, Communication Skills, English, Excel, French, Git, Google Cloud, Optimization, Programming, Python, SQL, Statistical Modeling, Statistics",NA,75
+"ENDRESS & HAUSER France","ENDRESS & HAUSER France",1,NA,NA,"Français, Git, Optimisation, Power BI, Reporting, équipe",NA,68
+"ENGIE","ENGIE",10,"Secteur Energie, Environnement",0,"Python",NA,92
+"ENGIE Solutions","ENGIE Solutions",1,"Secteur Energie, Environnement",0,"Collaboration, Excel, Power BI, Reporting, Tableau, équipe",NA,93
+"EURO-INFORMATION DEVELOPPEMENTS","EURO-INFORMATION DEVELOPPEMENTS",6,"Banque, Assurance, Finance",NA,"équipe",34,67
+"EVS Professionnel","EVS Professionnel",1,NA,NA,"Bases de donnée, Collaboration, Excel, Git, Reporting, SQL, Statistique, Tableau, équipe",NA,69
+"EXAKIS NELITE","EXAKIS NELITE",1,"Secteur informatique, ESN",1,"Azure, Curiosité, Power BI, équipe",NA,31
+"EY","EY",7,"Secteur informatique, ESN",3.5,"Excel, Git, équipe",NA,92
+"EasyVista","EasyVista",1,"Secteur informatique, ESN",0,"Français, NLP, Prévision, Python, Statistique, équipe",NA,38
+"Edenred","Edenred",2,"Services aux Entreprises",NA,"Git",NA,92
+"Edhec Business School","Edhec Business School",1,NA,NA,"Anglais, Communication, Excel, Intelligence artificielle, équipe",NA,59
+"Edvance","Edvance",1,NA,NA,"Anglais, Base de donnée, Communication, Rigueur, équipe",NA,92
+"Egis","Egis",1,NA,NA,"Anglais, Bases de donnée, Data Visualization, Git, Proactif, Rapport, Tableau, équipe",NA,69
+"Ekimetrics","Ekimetrics",6,"Secteur informatique, ESN",0,"Créativité, Curiosité, Deep Learning, Excel, Git, Optimisation, équipe",NA,75
+"Ekino France","Ekino France",1,NA,NA,"AWS, Anglais, Français, Hadoop, Programmation, Python, SQL, Spark, Statistique, Tableau, modélisation, équipe",NA,93
+"Ekkiden","Ekkiden",2,"Secteur informatique, ESN",NA,"Autonome, Autonôme, Bases de donnée, Git, Google Cloud, Hadoop, SQL, Spark, équipe",NA,75
+"Elis","Elis",1,NA,NA,"Anglais, Communication, Reporting, Tableau, équipe",NA,92
+"Elsys Design","Elsys Design",1,NA,NA,"Base de donnée, Collaboration, Python, équipe",NA,35
+"Endrix","Endrix",1,"BEP, CAP, Banque, Assurance, Finance",NA,"Collaboration, Communication, Optimisation, équipe",NA,69
+"Enedis","Enedis",1,NA,NA,"Dataviz, Rapport, Tableau, équipe",NA,69
+"Enterprise Digital Resources Ltd","Enterprise Digital Resources Ltd",1,NA,NA,"Anglais, Collaboration, Power BI, Python, SQL, équipe",NA,59
+"Equancy","Equancy",1,NA,NA,"Deep Learning",NA,75
+"Equans","Equans",5,"BTP, Secteur Energie, Environnement",1,"Git, équipe",45,69
+"Equativ","Equativ",4,"Secteur informatique, ESN",NA,"Deep Learning, Excel, Python",NA,75
+"Eramet","Eramet",1,NA,NA,"Anglais, Azure, Curiosité, Excel, Français, Gestion de Projets, Git, Python, Rapport, Rigueur, SQL, Statistique, TensorFlow, équipe",NA,78
+"Ergoss Logiciels","Ergoss Logiciels",7,NA,NA,"Autonome, Autonôme, Programmation, Rapport, équipe",NA,NA
+"Espace Freelance","Espace Freelance",1,NA,NA,"Python, SQL, Statistique, Tableau, Visualisation de donnée, équipe",NA,59
+"Esprit RH","Esprit RH",1,"Services aux Entreprises",1,"Anglais, Optimisation, équipe",NA,31
+"Eureden","Eureden",1,NA,NA,"Autonome, Autonôme, Communication, Excel, Git, Programmation, Python, SQL, Statistique, Tableau, modélisation, équipe",NA,29
+"Euro Information","Euro Information",2,NA,NA,"Anglais, Autonome, Autonôme, Deep Learning, Python, équipe",34.5,59
+"Eurofins","Eurofins",2,"Industrie Pharmaceutique, Biotechn., Chimie",NA,"Communication, Excel",NA,2
+"Europcar Mobility Group","Europcar Mobility Group",2,"Transport, Logistique",NA,"Communication, Preprocessing, Reporting",NA,75
+"European Camping Group","European Camping Group",1,NA,NA,"Anglais, Communication, Excel, Français, Git, Optimisation, Power BI, Programmation, Rapport, SQL, Statistique, Tableau, équipe",30,34
+"Evaneos","Evaneos",13,NA,3,"Autonome, Autonôme, Excel, Git, Rapport, Tableau, équipe",NA,NA
+"Eviden","Eviden",5,"Secteur informatique, ESN",7,"SQL",NA,33
+"Evoteo Consulting","Evoteo Consulting",4,"Services aux Entreprises",1,"AWS, Python, Rapport, SQL, Spark, Tableau, équipe",41,69
+"Excelcio","Excelcio",1,NA,NA,"Data Visualization, Excel, Power BI, Proactif, SQL, Tableau, équipe",NA,75
+"Exotec","Exotec",4,"Industrie high-tech, Telecom",0,"Collaboration, Python",NA,59
+"Expectra","Expectra",2,"Banque, Assurance, Finance",1,"Optimisation",40,44
+"Expleo","Expleo",10,"Secteur informatique, ESN",7,"équipe",NA,31
+"Externatic","Externatic",2,"Services aux Entreprises",1,"Rapport, Tableau, équipe",40,44
+"Externatic recrutement","Externatic recrutement",1,"Services aux Entreprises",NA,"",NA,44
+"Extia","Extia",12,"Secteur informatique, ESN",NA,"équipe",NA,34
+"Eyetech Solutions","Eyetech Solutions",1,NA,NA,"AWS, Azure, Collaboration, Matplotlib, Prévision, Python, Seaborn, Statistique, Tableau, Visualisation de donnée, modélisation, équipe",45,75
+"FABDEV","FABDEV",1,NA,NA,"AWS, Git, Google Cloud, Python, Seaborn, TensorFlow",NA,75
+"FAREVA IT APPS","FAREVA IT APPS",2,"Industrie Manufacturière",7,"Reporting, collecte de données, équipe",NA,26
+"FINDWAYS","FINDWAYS",1,NA,NA,"Base de donnée, Intelligence artificielle, Programmation, collecte de données, équipe",1,92
+"FREE MOBILE","FREE MOBILE",1,NA,NA,"Bases de donnée, Communication, Prévision, Python, Rigueur, SQL, Tableau, équipe",40,34
+"FREE RESEAU","FREE RESEAU",1,NA,NA,"Adaptabilité, Anglais, Base de donnée, Communication, Curiosité, Excel, Python, Rapport, Reporting, Rigueur, SQL, Statistique, Tableau, VBA, modélisation, équipe",NA,75
+"FREE SAS","FREE SAS",1,NA,NA,"Collaboration, Communication, English, Excel, Optimisation, Python, Statistique, équipe",NA,75
+"FREELANCEREPUBLIK","FREELANCEREPUBLIK",2,NA,NA,"Anglais, Spark, équipe",NA,59
+"FRISBEE PROFILING","FRISBEE PROFILING",1,NA,NA,"Rapport, Reporting, Tableau, modélisation, équipe",400,92
+"Fairly Made","Fairly Made",1,NA,3,"Autonome, Autonôme, Base de donnée, Git, Power BI, Proactif, Python, Rigueur, SQL, équipe",NA,NA
+"Fidal","Fidal",1,"Secteur informatique, ESN",0,"Anglais, Communication, Curiosité, Git, Intelligence artificielle, Rigueur, équipe",NA,75
+"Fiderim Deux Savoie","Fiderim Deux Savoie",1,"Services aux Entreprises",1,"Tableau",30,74
+"Filhet-Allard","Filhet-Allard",1,NA,NA,"Optimisation, Reporting, Statistique, équipe",NA,NA
+"Finance People","Finance People",1,"Services aux Entreprises",NA,"Excel, Power BI, Programmation, PyTorch, Python, Rapport, Statistique, TensorFlow, équipe",45,78
+"FinancePeople","FinancePeople",1,NA,NA,"Excel, Power BI, Programmation, PyTorch, Python, Rapport, Statistique, TensorFlow, équipe",50,78
+"Flyinstinct","Flyinstinct",1,NA,NA,"Anglais, Français, Intelligence artificielle, Python, Statistique, équipe",NA,75
+"Fnac Darty","Fnac Darty",7,"Distribution, Commerce de gros",0,"Git",NA,94
+"Fondation pour la Recherche Médicale","Fondation pour la Recherche Médicale",1,NA,NA,"Azure, Base de donnée, Bases de donnée, Communication, Curiosité, Excel, Français, Git, Power BI, Reporting, Rigueur, SQL, Statistique, équipe",NA,86
+"Foodles","Foodles",1,NA,NA,"Collaboration, Communication, Git, Optimisation, Prévision, Python, équipe",NA,92
+"Fortuneo","Fortuneo",1,"Banque, Assurance, Finance",NA,"AWS, équipe",NA,29
+"Franfinance","Franfinance",1,NA,NA,"Bases de donnée, Français, Power BI, Programmation, Python, Reporting, Statistique",NA,92
+"Française des Jeux","Française des Jeux",1,NA,NA,"Curiosité, Français, Git, Hadoop, Prévision, Python, Reporting, Rigueur, SQL, Spark, Statistique, modélisation, équipe",NA,92
+"Free","Free",3,"Média, Internet, Communication",0,"équipe",NA,75
+"Free2move","Free2move",1,NA,NA,"Autonome, Autonôme, Base de donnée, Bases de donnée, Collaboration, Excel, Git, Power BI, Python, SQL, Spark, Tableau, équipe",NA,75
+"Fretbay","Fretbay",1,NA,NA,"Autonome, Autonôme, Base de donnée, C++, Communication, Curiosité, Excel, Git, Proactif, Programmation, Prévision, Python, Reporting, SQL, Statistique, équipe",NA,75
+"Fédération Française de Rugby","Fédération Française de Rugby",1,NA,NA,"Bases de donnée, Français, Proactif, Programmation, Python, Reporting, Rigueur, Statistique, modélisation, équipe",35,91
+"GALEC Services centraux","GALEC Services centraux",6,"Distribution, Commerce de gros",1,"équipe",NA,94
+"GEMY Automobiles","GEMY Automobiles",2,NA,NA,"Python, Statistique, équipe",NA,NA
+"GENERATION","GENERATION",1,NA,NA,"Excel, Python, Rapport, Statistique, Tableau, VBA, équipe",NA,29
+"GERFLOR","GERFLOR",1,NA,NA,"Anglais, Base de donnée, Collaboration, Créativité, Excel, Français, Intelligence artificielle, Reporting, Rigueur, SQL, Statistique, équipe",NA,69
+"GESER BEST","GESER BEST",1,NA,NA,"Anglais, Bases de donnée, C++, Dataviz, Power BI, Python, Reporting, Résolution de Problèmes, SQL, Statistique, équipe",28,33
+"GIP PULSY","GIP PULSY",1,NA,NA,"Base de donnée, Bases de donnée, Communication, Programmation, Reporting, Rigueur, SQL, Statistique, Tableau, modélisation, équipe",30,67
+"GRESB","GRESB",1,NA,NA,"Collaboration, Database, English, Excel, Python, SQL",NA,75
+"GROUPE ALPHA","GROUPE ALPHA",1,NA,NA,"Bases de donnée, Excel, Intelligence artificielle, Optimisation, Power BI, Python, Rapport, Rigueur, SQL, Statistique, Tableau, modélisation, équipe",NA,75
+"GROUPE BAYARD PRESSE","GROUPE BAYARD PRESSE",1,NA,NA,"Adaptabilité, Autonome, Autonôme, Git, Statistique, Tableau, équipe",NA,92
+"GROUPE LIMAGRAIN","GROUPE LIMAGRAIN",1,NA,NA,"Anglais, Curiosité, Excel, Git, Proactive, Programmation, Prévision, PyTorch, Python, Rigueur, Statistique, modélisation, équipe",NA,63
+"GROUPE PSA","GROUPE PSA",1,"Industrie Auto, Meca, Navale",0,"Collaboration, Communication, NLP, Python, collecte de données, équipe",NA,78
+"GROUPEMENT D'INTERET PUBLIC PULSY","GROUPEMENT D'INTERET PUBLIC PULSY",1,NA,NA,"Base de donnée, Bases de donnée, Communication, Programmation, Reporting, Rigueur, SQL, Statistique, Tableau, modélisation, équipe",NA,67
+"Galec - Mouvement E.Leclerc","Galec - Mouvement E.Leclerc",28,NA,5.5,"équipe",NA,NA
+"Galeries Lafayette","Galeries Lafayette",2,"Distribution, Commerce de gros",0,"Deep Learning, Intelligence artificielle, équipe",20,75
+"Gameloft","Gameloft",2,"Secteur informatique, ESN",0,"Autonomous, Communication, English, Feature Engineering, French, Git, Matplotlib, Python, SQL, Seaborn, Team Player",NA,75
+"Gan Assurances","Gan Assurances",1,NA,NA,"Collaboration, Créativité, Curiosité, Dataviz, Excel, Français, Python, Rigueur, SQL, Statistique, Tableau, équipe",NA,92
+"Generali France","Generali France",6,NA,NA,"Python",NA,93
+"Generali VIE","Generali VIE",2,"Banque, Assurance, Finance",0,"Dataviz, Git, Hadoop, Power BI, Python, Reporting, SQL, Tableau, modélisation",NA,93
+"Geniem","Geniem",2,NA,NA,"Deep Learning",400,59
+"Geodis","Geodis",1,"Transport, Logistique",1,"modélisation, équipe",NA,73
+"Ghu Paris Psychiatrie et Neurosciences","Ghu Paris Psychiatrie et Neurosciences",1,NA,NA,"Anglais, Bases de donnée, Programmation, Python, SQL, Statistique, équipe",NA,75
+"Grant Thornton","Grant Thornton",1,"Secteur informatique, ESN",0,"Python, SQL, équipe",NA,92
+"Grant Thornton France","Grant Thornton France",3,NA,NA,"Anglais, Excel, Power BI, SQL, équipe",NA,92
+"GroupAgora","GroupAgora",1,NA,NA,"Deep Learning",45,33
+"GroupM","GroupM",1,"Média, Internet, Communication",NA,"Anglais, Base de donnée, Bases de donnée, Collaboration, Communication, Excel, Git, Optimisation, Power BI, Python, R Studio, Rapport, SQL, modélisation, équipe",NA,75
+"Groupagora","Groupagora",6,"Secteur informatique, ESN",2.66666666666667,"Bases de donnée, Intelligence artificielle, Optimisation, Rapport, Reporting, Tableau, modélisation, équipe",45,64
+"Groupama Asset Management","Groupama Asset Management",1,"Banque, Assurance, Finance",1,"Reporting",NA,75
+"Groupama Assurances Mutuelles","Groupama Assurances Mutuelles",5,"Banque, Assurance, Finance",0,"modélisation, équipe",NA,75
+"Groupama Centre Manche","Groupama Centre Manche",1,NA,NA,"Bases de donnée, Communication, Rigueur, Statistique, équipe",NA,72
+"Groupama Gan Vie","Groupama Gan Vie",2,"Banque, Assurance, Finance",1,"Optimisation, équipe",50,92
+"Groupama Rhône Alpes Auvergne","Groupama Rhône Alpes Auvergne",1,NA,NA,"Excel, Rigueur, SQL, Statistique, équipe",NA,69
+"Groupama Supports et Services","Groupama Supports et Services",2,NA,NA,"Collaboration, équipe",NA,92
+"Groupe ADP","Groupe ADP",4,"Transport, Logistique",0,"équipe",NA,94
+"Groupe Alpha","Groupe Alpha",1,NA,NA,"Bases de donnée, Optimisation, Rapport, SQL, Tableau, modélisation, équipe",NA,75
+"Groupe Aptenia","Groupe Aptenia",2,NA,NA,"Anglais, Deep Learning, Optimisation",475,75
+"Groupe BPCE","Groupe BPCE",5,NA,NA,"SQL",NA,33
+"Groupe Beaumanoir (Siège)","Groupe Beaumanoir (Siège)",1,NA,NA,"Autonome, Autonôme, Git, Prévision, Python, SQL, Spark, Statistique, Volonté d'Apprendre, modélisation, équipe",NA,35
+"Groupe Créative","Groupe Créative",2,"Secteur informatique, ESN",1,"Git, Programming, Python, Reporting, SQL, Spark, équipe",40,59
+"Groupe Demeter","Groupe Demeter",1,NA,NA,"Anglais, Excel, Français, Gestion du Temps, Git, Python, Spark, Statistique, modélisation, équipe",50,92
+"Groupe Dubreuil","Groupe Dubreuil",2,"Distribution, Commerce de gros",0,"Deep Learning",NA,85
+"Groupe Kering","Groupe Kering",4,NA,NA,"English, Excel",NA,75
+"Groupe Le Duff","Groupe Le Duff",1,NA,NA,"Autonome, Autonôme, Azure, Git, Power BI, Python, SQL, Statistique, modélisation, équipe",NA,35
+"Groupe M6","Groupe M6",1,NA,NA,"AWS, Collaboration, Git, Programmation, Python, R Studio, Rapport, SQL, Statistique, Tableau, équipe",NA,92
+"Groupe OGF","Groupe OGF",2,"BEP, CAP, Services aux Personnes, Particuliers",NA,"Azure, Bases de donnée, Power BI, SQL, modélisation, équipe",52.5,13
+"Groupe Ortec","Groupe Ortec",2,"Industrie Pétrolière, Pétrochimie, Secteur Energie, Environnement",0,"Bases de donnée, NLP, équipe",NA,92
+"Groupe Roullier","Groupe Roullier",1,"Industrie Agro-alimentaire",0,"Optimisation, Reporting, équipe",NA,35
+"Groupe SEB","Groupe SEB",1,"Distribution, Commerce de gros",0,"Autonome, Autonôme, Excel, Statistique, équipe",NA,53
+"Groupe Seb","Groupe Seb",1,NA,NA,"Autonome, Autonôme, Excel, Statistique, équipe",NA,53
+"Groupe VILAVI","Groupe VILAVI",1,"Banque, Assurance, Finance",1,"Git, Statistique, modélisation",NA,93
+"Groupement Les Mousquetaires","Groupement Les Mousquetaires",4,"Distribution, Commerce de gros",0,"équipe",17,92
+"Gueudet","Gueudet",1,NA,NA,"Bases de donnée, Git, SQL, Statistique, équipe",NA,80
+"Gueudet 1880","Gueudet 1880",1,"Industrie Auto, Meca, Navale",NA,"",NA,80
+"HIMYDATA","HIMYDATA",1,NA,NA,"Autonome, Autonôme, Base de donnée, Collaboration, Excel, Git, Matplotlib, Programmation, Python, SQL, Statistique, modélisation, équipe",NA,6
+"HIPPY SAS - INDIENOV","HIPPY SAS - INDIENOV",1,NA,NA,"Anglais, Collaboration, Communication, Git, Hadoop, Intelligence artificielle, Python, SQL, Spark, équipe",NA,13
+"HP","HP",1,NA,NA,"English, Excel, Forecasting, Power BI, Python, Reporting, SQL, Statistical Modeling",NA,38
+"HR Team","HR Team",3,"Secteur informatique, ESN",1,"Python, Spark, équipe",37,44
+"HSBC","HSBC",2,"Banque, Assurance, Finance",NA,"Anglais, Autonome, Autonôme, Excel, Python, SQL, équipe",NA,92
+"Hager Group","Hager Group",1,NA,NA,"Anglais, Python, Rigueur, SQL, Statistique, Tableau",NA,33
+"Hardis Group","Hardis Group",7,"Secteur informatique, ESN",4.2,"équipe",NA,38
+"Harmonie Mutuelle","Harmonie Mutuelle",1,NA,NA,"Autonome, Autonôme, Communication, Excel, Git, Prévision, Résolution de Problèmes, SQL, Statistique, Tableau, modélisation, équipe",NA,35
+"Harry Hope","Harry Hope",3,"Services aux Entreprises",1,"équipe",41.6666666666667,21
+"Havas Group","Havas Group",2,"Média, Internet, Communication",7,"Bases de donnée, Excel, Rigueur, équipe",NA,92
+"Havas Media","Havas Media",1,NA,NA,"Collaboration, Communication, Database, English, Excel, French, Git, Reporting, data collection",NA,75
+"Hays","Hays",9,"Secteur informatique, ESN",0.888888888888889,", équipe",40.125,31
+"Health Data Hub","Health Data Hub",7,NA,NA,"Deep Learning",NA,NA
+"Hello Watt","Hello Watt",1,"Secteur Energie, Environnement",0,"Rapport, équipe",NA,75
+"HelloFresh","HelloFresh",2,"Distribution, Commerce de gros",1,"Python, SQL",NA,75
+"Himydata","Himydata",1,NA,NA,"Collaboration, Git, Optimisation, Power BI, Programmation, Python, Rapport, Reporting, SQL, Spark, Statistique, Tableau, équipe",30,59
+"Hipto","Hipto",7,NA,NA,"AWS, Curiosité, Optimisation, Programmation, Python, SQL, Tableau, équipe",NA,NA
+"Hitachi Solutions Ltd","Hitachi Solutions Ltd",1,NA,NA,"Azure, Collaboration, Communication, Creativity, Excel, Git, Power BI, SQL, Tableau, équipe",NA,75
+"Holcim","Holcim",2,NA,NA,"Data Visualization, Programming, Python",NA,38
+"Hove","Hove",7,NA,NA,"Anglais, Français, Power BI, Rapport, SQL, Tableau, équipe",NA,NA
+"Hôpital Cavale Blanche","Hôpital Cavale Blanche",1,NA,NA,"Deep Learning",NA,29
+"Hôpital National des Quinze-Vingts","Hôpital National des Quinze-Vingts",2,NA,NA,"Collaboration, Rapport",NA,75
+"IBM","IBM",1,NA,NA,"Anglais, Collaboration, Curiosité, Français, équipe",NA,92
+"ICM Institut du Cerveau","ICM Institut du Cerveau",1,NA,NA,"Collaboration, Communication, Database, Programmation, Programming, Python, Statistics, Version Control",40,75
+"IKIGAÏ","IKIGAÏ",1,NA,NA,"Power BI, Programmation, Reporting, Tableau, équipe",30,69
+"IMT Nord Europe","IMT Nord Europe",1,"Enseignement, Formation",0,"Deep Learning",NA,59
+"IN'LI","IN'LI",1,NA,NA,"Power BI, Project Management, Rapport, SQL, Statistique, équipe",NA,92
+"INERIS","INERIS",1,NA,NA,"Communication, English, Excel, French, Programming, Python, équipe",NA,60
+"INEX BET","INEX BET",1,NA,NA,"Anglais, Base de donnée, Communication, Excel, Programmation, PyTorch, Python, Rigueur, Tableau, TensorFlow",900,93
+"INFOGENE","INFOGENE",10,"Secteur informatique, ESN",1,"équipe",48.75,92
+"INFOPRO DIGITAL","INFOPRO DIGITAL",1,NA,NA,"Autonome, Autonôme, Base de donnée, Excel, Français, Git, Programmation, Reporting, Statistique, équipe",NA,92
+"INRAE","INRAE",1,NA,NA,"Base de donnée, Git, Intelligence artificielle, modélisation, équipe",29,44
+"INRIA","INRIA",1,"Service public des collectivités territoriales, Service public d'état, Service public autres",NA,"Apprentissage profond, Collaboration, Python, Statistique, modélisation, équipe",NA,34
+"IRT Jules VERNE","IRT Jules VERNE",1,NA,NA,"Anglais, C++, Communication, Intelligence artificielle, Programmation, PyTorch, Python, équipe",NA,44
+"IRT Jules Verne","IRT Jules Verne",1,"Industrie Manufacturière",NA,"Intelligence artificielle, équipe",NA,44
+"IT&M STATS","IT&M STATS",1,"Secteur informatique, ESN",NA,"Anglais, Autonome, Autonôme, Statistique, équipe",NA,75
+"ITW","ITW",1,NA,NA,"Anglais, Bases de donnée, Excel, Power BI, Programmation, Python, Reporting, SQL, Statistique, VBA, équipe",NA,26
+"IZIWORK","IZIWORK",1,NA,NA,"Anglais, Excel, Git, Python, SQL",40,44
+"Iliad","Iliad",3,"Industrie high-tech, Telecom, Média, Internet, Communication",0,"équipe",NA,75
+"In Extenso","In Extenso",2,"Secteur informatique, ESN",0.5,"AWS, Azure, Git, Power BI, Python, SQL, Tableau, équipe",NA,75
+"InPost","InPost",1,NA,NA,"Anglais, Base de donnée, Bases de donnée, Excel, Power BI, Python, Reporting, SQL, équipe",NA,59
+"InVivo Digital Factory","InVivo Digital Factory",2,"Industrie Agro-alimentaire",7,"Collaboration, Git, SQL, modélisation, équipe",NA,92
+"Ineat","Ineat",2,"Secteur informatique, ESN",NA,"Git, Power BI, SQL, modélisation, équipe",NA,59
+"Ineris","Ineris",3,"Secteur Energie, Environnement",1,"French",NA,60
+"Inetum","Inetum",31,"Secteur informatique, ESN",7,"équipe",NA,93
+"Infotel","Infotel",4,"Secteur informatique, ESN",7,"Hadoop, SQL",38,29
+"Ingeniance","Ingeniance",2,"Secteur informatique, ESN",NA,"AWS, Azure, équipe",NA,92
+"Innova Solutions","Innova Solutions",1,"Secteur informatique, ESN",7,"Collaboration, Excel, Python, SQL, modélisation, équipe",NA,6
+"Innovela","Innovela",26,NA,2,"Autonome, Autonôme, Bases de donnée, Hadoop, Programmation, Python, Spark, équipe",50,NA
+"Inria","Inria",2,NA,NA,"Collaboration, Excel, Git, Programming, Python, équipe",NA,13
+"Insitoo","Insitoo",2,NA,NA,"équipe",NA,59
+"Insitoo Freelances","Insitoo Freelances",2,NA,NA,"Anglais, Google Cloud, Power BI, Programmation, Python, SQL, équipe",NA,59
+"Institut du Cerveau et de la Moelle Épinière","Institut du Cerveau et de la Moelle Épinière",1,NA,NA,"Collaboration, Communication, Database, Programming, Python, Statistics, Version Control",NA,75
+"Institut du cerveau","Institut du cerveau",1,NA,NA,"Communication, Communication Skills, Excel, Programming, Python",NA,75
+"Inventing for Life","Inventing for Life",1,"Industrie Pharmaceutique, Biotechn., Chimie",NA,"AWS, Collaboration, Créativité, Data Visualization, Database, Git, Optimisation, Power BI, Programming, Project Management, Python, Statistics, Statistique, équipe",NA,75
+"Invivoo","Invivoo",1,NA,NA,"Dataviz, Excel, Optimisation, Python, SQL, Tableau, VBA, équipe",40,75
+"Ipsen Pharma (SAS)","Ipsen Pharma (SAS)",1,NA,NA,"Data Visualization, Natural Language Processing, Programming, Python, Team Player",NA,92
+"Itnovem","Itnovem",1,"Secteur informatique, ESN",NA,"AWS, Azure, Git, Proactive, équipe",NA,93
+"Ivalua","Ivalua",1,NA,NA,"Deep Learning",NA,91
+"Iziwork","Iziwork",1,"Services aux Entreprises",NA,"Anglais, Excel, Python, SQL",40,44
+"JCDecaux","JCDecaux",6,"Média, Internet, Communication, Industrie Manufacturière",1.75,"équipe",NA,92
+"Job Staging","Job Staging",2,"Industrie high-tech, Telecom, Secteur informatique, ESN",7,"Autonome, Autonôme, Collaboration, Git, Optimisation, Power BI, Rigueur, SQL, modélisation, équipe",NA,56
+"Jobmania","Jobmania",1,"Services aux Entreprises, Média, Internet, Communication",1,"Curiosité, Git, Rapport, équipe",1,75
+"Johnson & Johnson","Johnson & Johnson",1,NA,NA,"Deep Learning",NA,92
+"K-Ryole","K-Ryole",2,"Industrie Manufacturière, Distribution, Commerce de gros",0,"Tableau, équipe",NA,75
+"KAROS MOBILITY","KAROS MOBILITY",7,NA,3,"Collaboration, Communication, Excel, Python, R Studio, Rapport, SQL, Statistique, équipe",50,NA
+"KLESIA","KLESIA",1,NA,NA,"Autonome, Autonôme, Communication, Excel, Power BI, Prévision, Python, Rapport, Rigueur, SQL, Statistique, Tableau, VBA, modélisation, équipe",NA,75
+"KNOW YOUR PEOPLE","KNOW YOUR PEOPLE",1,NA,NA,"Autonome, Autonôme, Git, Programmation, Python, Rapport, Reporting, SQL, Statistique, modélisation",35,59
+"KPMG","KPMG",15,"Secteur informatique, ESN",0.428571428571429,"équipe",NA,92
+"KROISSANCE","KROISSANCE",1,NA,NA,"Azure, Communication, Français, Git, Power BI, Python, Rigueur, SQL, équipe",40,31
+"Kaino","Kaino",2,NA,NA,"AWS, Collaboration, Proactif, Programmation, Python, équipe",60,75
+"Kaino Consulting","Kaino Consulting",1,NA,NA,"AWS, Collaboration, Proactif, Python, équipe",NA,75
+"Kanbios","Kanbios",12,NA,3.5,"Anglais, Excel, équipe",NA,NA
+"Kaïbee","Kaïbee",1,NA,NA,"AWS, Anglais, Autonome, Autonôme, Collaboration, Git, Programmation, Programming, Python, Spark, équipe",400,75
+"Kelkoo LTD","Kelkoo LTD",1,"Secteur informatique, ESN",NA,"Deep Learning",NA,38
+"Kelly Services","Kelly Services",1,"Industrie Pharmaceutique, Biotechn., Chimie",1,"Anglais, Collaboration, Communication, Gestion de Projets, Git, Python, Rapport, équipe",NA,91
+"Keolis Tours","Keolis Tours",1,NA,NA,"Collaboration, Curiosité, Programmation, Tableau, équipe",NA,37
+"Kering","Kering",1,"Distribution, Commerce de gros",NA,"Curious, Database, English, Excel, Forecasting, French, Proactive, Python, SQL, Statistics",NA,75
+"Kicklox","Kicklox",14,NA,NA,"Français",257.5,78
+"Klarys","Klarys",1,NA,NA,"Deep Learning",NA,35
+"Klint Consulting","Klint Consulting",7,NA,5,"Reporting, équipe",55,NA
+"Kumo","Kumo",1,NA,NA,"Base de donnée, Excel, Programmation, Reporting, Tableau, VBA, équipe",700,92
+"Kuribay","Kuribay",1,"Industrie Auto, Meca, Navale",1,"Collaboration, Optimisation, équipe",NA,69
+"Kyriba","Kyriba",2,"Banque, Assurance, Finance",NA,"Artificial intelligence, Communication, Communication Skills, English, Python, Statistics",NA,92
+"L'Opcommerce","L'Opcommerce",1,NA,NA,"Autonome, Autonôme, Azure, Dataviz, Git, Power BI, Python, Rapport, Reporting, SQL, Statistique, équipe",38,75
+"L'Organisation mondiale de la santé animale (OIE)","L'Organisation mondiale de la santé animale (OIE)",1,NA,NA,"Collaboration, Database, Database Management, English, Excel, French, Git, Proactive, Programming, Project Management, Python, Reporting, SQL, Team Player, data collection",NA,75
+"LA BCI","LA BCI",1,NA,NA,"Base de donnée, Communication, Créativité, Curiosité, Excel, Power BI, Programmation, Python, Rapport, Rigueur, SQL, Serieux, Statistique, Tableau, modélisation, équipe",NA,NA
+"LA POSTE GROUPE","LA POSTE GROUPE",6,"Transport, Logistique",1,"équipe",NA,93
+"LALLEMAND","LALLEMAND",1,NA,NA,"Communication, Excel, Git, Programmation, Statistique, Tableau, équipe",29,15
+"LCL","LCL",6,"Banque, Assurance, Finance",0.333333333333333,"équipe",NA,94
+"LE GROUPE GCF","LE GROUPE GCF",1,NA,NA,"Anglais, Bases de donnée, Communication, Curiosité, Excel, Français, Reporting, Rigueur, Statistique, Tableau, équipe",NA,67
+"LHH Recruitment Solutions","LHH Recruitment Solutions",3,"Services aux Entreprises",7,"Anglais",40,33
+"LNE","LNE",1,NA,NA,"Anglais, Autonome, Autonôme, Bases de donnée, C++, Curiosité, Français, Intelligence artificielle, Programmation, Python, équipe",NA,75
+"LR Technologies Nord","LR Technologies Nord",2,"Services aux Entreprises, Secteur informatique, ESN",1,"Collaboration, Git, Google Cloud, Power BI, SQL, modélisation, équipe",40,59
+"LSA COURTAGE","LSA COURTAGE",44,NA,NA,"Autonome, Autonôme, Base de donnée, Communication, Curiosité, Data Visualization, Git, Google Cloud, Programmation, Rapport, Rigueur, SQL, Statistique, Tableau, équipe",NA,92
+"La Banque Postale","La Banque Postale",5,NA,NA,"Deep Learning",NA,75
+"La Belle Iloise","La Belle Iloise",1,NA,NA,"Base de donnée, Bases de donnée, Excel, Git, Optimisation, Prévision, Reporting, Rigueur, SQL, Statistique, Tableau, équipe",NA,56
+"La Relève","La Relève",7,NA,4,"Communication, Git, Statistique, modélisation, équipe",50,NA
+"La Sécu recrute","La Sécu recrute",6,NA,NA,"Statistique",36,75
+"Lacoste","Lacoste",1,"Distribution, Commerce de gros",NA,"",NA,75
+"Langton Howarth","Langton Howarth",1,NA,NA,"Autonomous, Communication, English, Python",NA,75
+"Latecoere","Latecoere",1,NA,NA,"Excel, Optimisation, Programmation, Python, SQL, Spark, Statistique, Tableau, modélisation, équipe",NA,31
+"Le Bon Candidat Recrutement","Le Bon Candidat Recrutement",1,"Services aux Entreprises",NA,"Anglais, Communication, Excel, Intelligence artificielle, équipe",40,94
+"Le Groupe La Poste","Le Groupe La Poste",1,NA,NA,"Anglais, Français, équipe",NA,75
+"Le Télégramme","Le Télégramme",4,"Média, Internet, Communication",1,"Collaboration, équipe",40,29
+"LeHibou","LeHibou",1,NA,NA,"Anglais, Git, Proactif, Reporting, équipe",550,92
+"Lefebvre Sarrut","Lefebvre Sarrut",1,NA,NA,"Excel, Français, Python, Rigueur, Statistique, équipe",NA,92
+"Lenovo France","Lenovo France",1,"Industrie high-tech, Telecom",NA,"Git",NA,40
+"Lesaffre","Lesaffre",3,"Industrie Agro-alimentaire",NA,"Deep Learning",NA,59
+"Liberty Rider","Liberty Rider",44,NA,NA,"Autonome, Autonôme, Communication, Power BI, Python, Rapport, SQL, Statistique, Tableau, équipe",NA,31
+"Licorne Society","Licorne Society",2,NA,NA,", AWS, Azure, Bases de donnée, Git, Optimisation, Power BI, Prévision, Python, Rapport, SQL, Tableau, équipe",NA,75
+"Liebherr-Aerospace Toulouse","Liebherr-Aerospace Toulouse",1,"Industrie Aéronautique, Aérospatial",1,"Git, Optimisation, équipe",NA,31
+"Liebherr-Aerospace Toulouse SAS","Liebherr-Aerospace Toulouse SAS",1,NA,NA,"Anglais, Bases de donnée, Git, Optimisation, PyTorch, Python, SQL, Spark, Statistique, TensorFlow, modélisation, équipe",NA,31
+"Limagrain","Limagrain",1,"Industrie Agro-alimentaire",1,"Git, Prévision, Rigueur, Statistique, équipe",NA,63
+"Lincoln","Lincoln",1,NA,NA,"Deep Learning",NA,69
+"LinkedIn Job Wrapping","LinkedIn Job Wrapping",1,NA,NA,"AWS, Azure, Base de donnée, Collaboration, Git, Google Cloud, Programmation, Python, SQL, Statistique, Tableau, Visualisation de donnée, collecte de données, équipe",NA,75
+"Lity","Lity",1,NA,NA,"Intelligence artificielle, Python, Statistique, équipe",80,75
+"LivingPackets","LivingPackets",21,NA,3,"AWS, Autonome, Autonôme, Azure, Bases de donnée, Collaboration, Git, Optimisation, Programmation, Python, SQL, Spark, Tableau, équipe",36.6666666666667,NA
+"Loc Maria Biscuits","Loc Maria Biscuits",2,"Industrie Agro-alimentaire",7,"Collaboration, Power BI, Reporting, modélisation, équipe",NA,22
+"Louvre Hôtels","Louvre Hôtels",1,NA,NA,"Anglais, Power BI, Rapport, Tableau, équipe",NA,92
+"Lydia Solutions","Lydia Solutions",44,NA,NA,"Communication, Communication Skills, Data Visualization, English, Excel, French, Proactive, Reporting, SQL, Team Player",NA,75
+"Lynx RH","Lynx RH",1,"Services aux Entreprises",NA,"Autonome, Autonôme, Git, Tableau, équipe",NA,49
+"MAIF","MAIF",2,NA,NA,"SQL, équipe",NA,79
+"MBDA France","MBDA France",1,NA,NA,"Anglais, Programmation, Python, Visualisation de donnée, équipe",NA,18
+"MBR Partners","MBR Partners",1,NA,NA,"Communication, Communication Skills, Database, Excel, Hadoop, Python, SQL, Spark, Tableau",NA,75
+"MFG Labs","MFG Labs",44,NA,NA,"AWS, Anglais, Français, Hadoop, Programmation, Python, SQL, Spark, Statistique, Tableau, modélisation, équipe",NA,77
+"MGEN","MGEN",1,NA,NA,"Bases de donnée, Collaboration, Dataviz, Excel, Power BI, Reporting, Rigueur, SQL, Statistique, Tableau, équipe",NA,75
+"MONABANQ","MONABANQ",1,NA,NA,"Excel, SQL, Statistique, Tableau",838,59
+"MP DATA","MP DATA",38,NA,2.5,"Deep Learning, Git, Python",46.1176470588235,92
+"MSD","MSD",2,NA,NA,"Collaboration, Créativité, équipe",NA,75
+"Maestria","Maestria",2,"Services aux Entreprises",1,"Azure, Intelligence artificielle, Programming, Python, Spark, équipe",45,6
+"Magasins Vert - Point Vert","Magasins Vert - Point Vert",1,"Distribution, Commerce de gros",0,"Git, Tableau, équipe",NA,29
+"Malakoff Humanis","Malakoff Humanis",4,NA,NA,"Python, Rigueur, équipe",NA,75
+"Malt","Malt",1,"Services aux Entreprises",0,"Attention to Detail, Communication, Curious, Data Visualization, Database, English, Proactive, Python, SQL",NA,75
+"Managing","Managing",2,"Services aux Entreprises",NA,"Collaboration, Excel, Tableau, Visualisation de donnée, équipe",NA,67
+"Mane","Mane",2,"Industrie Pétrolière, Pétrochimie",NA,"AWS, Anglais, Autonome, Autonôme, Bases de donnée, Excel, Git, Programmation, PyTorch, Python, SQL, Statistique, TensorFlow, modélisation",NA,6
+"Manutan","Manutan",2,"Média, Internet, Communication",NA,"Deep Learning, Optimisation, équipe",NA,95
+"Marcel ROBBEZ MASSON","Marcel ROBBEZ MASSON",1,NA,NA,"Anglais, Base de donnée, Bases de donnée, Collaboration, Programmation, Reporting, Rigueur, SQL, Statistique",36,34
+"Margo Conseil","Margo Conseil",1,NA,NA,"Deep Learning",NA,75
+"Maser Engineering","Maser Engineering",2,"Services aux Entreprises",1,"",30,31
+"Matmut","Matmut",2,"Banque, Assurance, Finance",1,"Deep Learning",NA,76
+"Mazars","Mazars",1,NA,NA,"Autonome, Autonôme, Data Visualization, Excel, Intelligence artificielle, Programmation, Python, Rapport, SQL, Tableau, équipe",NA,75
+"Mazars.","Mazars.",2,"Secteur informatique, ESN",7,"AWS, Azure, Git, Tableau, équipe",NA,92
+"McKinsey & Company","McKinsey & Company",2,NA,NA,"Deep Learning",NA,75
+"Meetic","Meetic",1,"Média, Internet, Communication",NA,"Deep Learning",NA,75
+"Meilleurtaux","Meilleurtaux",1,"Banque, Assurance, Finance, Média, Internet, Communication",NA,"Adaptabilité, Azure, Bases de donnée, Git, Optimisation, Python, Reporting, équipe",NA,75
+"Meritis","Meritis",3,"Secteur informatique, ESN",NA,"Optimisation, Prévision, équipe",NA,75
+"Meta","Meta",2,NA,NA,"Deep Learning",NA,75
+"Metrixx","Metrixx",1,NA,NA,"Git, Optimisation, Reporting, Tableau",NA,69
+"Metyis","Metyis",1,NA,NA,"Communication, Communication Skills, Data Visualization, English, French, Git, Power BI, Python, SQL, Tableau",NA,75
+"Michael Page","Michael Page",12,"Services aux Entreprises",0,"équipe",51.5,92
+"Michelin","Michelin",5,"Industrie Manufacturière",0,"équipe",1,63
+"Million Victories","Million Victories",7,NA,NA,"A/B Testing, Autonomous, Creativity, Database, English, Proactive, Programming, Python, SQL",NA,NA
+"Mirakl","Mirakl",5,"Média, Internet, Communication, Secteur informatique, ESN",NA,"Deep Learning",NA,75
+"Mirakl - Labs","Mirakl - Labs",1,NA,NA,"Deep Learning",NA,33
+"Mobilize Financial Services","Mobilize Financial Services",1,"Banque, Assurance, Finance, Industrie Auto, Meca, Navale",1,"Collaboration, Google Cloud, Reporting, Tableau, équipe",NA,93
+"Mon-marché.fr","Mon-marché.fr",1,NA,NA,"Autonome, Autonôme, Git, Reporting, SQL, Tableau, équipe",NA,69
+"Mondial Relay","Mondial Relay",1,"Transport, Logistique",7,"AWS, Tableau",NA,59
+"Morgan Philips Executive Search","Morgan Philips Executive Search",2,"Industrie Pharmaceutique, Biotechn., Chimie",7,"Collaboration, Git, équipe",NA,92
+"Mosica","Mosica",2,"Secteur informatique, ESN",1,"AWS, Hadoop, Programmation, Python, Spark, équipe",NA,44
+"Mydral","Mydral",5,"Secteur informatique, ESN",7,"Excel, Reporting, Tableau, équipe",49.75,75
+"NANTES UNIVERSITE","NANTES UNIVERSITE",1,NA,NA,"Anglais, Français, Rapport, équipe",2,44
+"NAVA ENGINEERING","NAVA ENGINEERING",1,"Industrie Aéronautique, Aérospatial, Secteur informatique, ESN",7,"Hadoop, équipe",43,31
+"NEO SOFT","NEO SOFT",1,NA,NA,"Bases de donnée, Excel, Git, Power BI, Programmation, Python, Rapport, SQL, Statistique, Tableau, modélisation, équipe",NA,75
+"NEXORIS","NEXORIS",1,NA,NA,"Anglais, Communication, Power BI, SQL, équipe",500,75
+"Natixis SA","Natixis SA",2,NA,NA,"Collaboration, Deep Learning, English, Excel, Optimisation, équipe",NA,75
+"Nature et découvertes","Nature et découvertes",1,NA,NA,"Collaboration, Excel, Français, Git, Python, Statistique, Tableau, équipe",NA,78
+"Neoxia","Neoxia",2,"Secteur informatique, ESN",NA,"Deep Learning",NA,75
+"Nestle Operational Services Worldwide SA","Nestle Operational Services Worldwide SA",3,NA,NA,"Power BI, Rapport, équipe",NA,75
+"Nexteam Group","Nexteam Group",1,NA,NA,"Autonome, Autonôme, Bases de donnée, SQL",NA,64
+"Nexton Consulting FR","Nexton Consulting FR",1,NA,NA,"Git, équipe",NA,59
+"Niji","Niji",1,NA,NA,"Anglais, Communication, Dataviz, Git, Optimisation, Power BI, Python, SQL, Spark, Tableau, équipe",NA,69
+"Nissan","Nissan",1,"Industrie Auto, Meca, Navale",NA,"Communication, Communication Skills, Curious, Database, English, Excel, French",NA,78
+"Nodya Group","Nodya Group",4,"Secteur informatique, ESN",7,"équipe",65.3333333333333,13
+"Norgay IT & Digital Services","Norgay IT & Digital Services",6,"Secteur informatique, ESN",1,"modélisation",36.2,44
+"Nova Consulting","Nova Consulting",1,NA,NA,"Base de donnée, Bases de donnée, Excel, Optimisation, Python, SQL, Statistique, modélisation, équipe",NA,75
+"Novencia","Novencia",4,NA,NA,"Git, Intelligence artificielle",NA,75
+"Novo Nordisk","Novo Nordisk",1,NA,NA,"Anglais, Base de donnée, Bases de donnée, Excel, Git, Intelligence artificielle, Optimisation, Programmation, Python, Résolution de Problèmes, SQL, Statistique, modélisation, équipe",NA,28
+"Numberly","Numberly",4,"Média, Internet, Communication",NA,"Python, SQL",NA,75
+"OCDE","OCDE",2,NA,NA,"Anglais, Collaboration, Excel, Français, Git, Power BI, Python, SQL, Statistique, VBA, Éthique et Intégrité, équipe",5.5,75
+"OCTO Technology","OCTO Technology",1,NA,NA,"Deep Learning",NA,75
+"OGF","OGF",1,NA,NA,"Azure, Base de donnée, Curiosité, Français, Python, SQL, Statistique, équipe",NA,75
+"OKAIDI","OKAIDI",1,NA,NA,"A/B Testing, Curiosité, Git, Optimisation, Rigueur, SQL, Statistique, équipe",38,59
+"ONEY","ONEY",1,NA,NA,"Git, Programmation, Python, SQL, Statistique, équipe",NA,59
+"OPPBTP","OPPBTP",2,"BTP",7,"Bases de donnée, Collaboration, Git, Intelligence artificielle, Optimisation, SQL, Spark, équipe",NA,92
+"ORTEC ENGINEERING","ORTEC ENGINEERING",44,NA,NA,"équipe",NA,31
+"OSE Engineering","OSE Engineering",7,NA,NA,"Autonome, Autonôme, Bases de donnée, Intelligence artificielle, Programmation, Python, Rapport, Statistique, modélisation, équipe",NA,NA
+"OUEST FRANCE","OUEST FRANCE",2,"Média, Internet, Communication",0,"équipe",NA,35
+"OVHCloud","OVHCloud",1,"Secteur informatique, ESN",NA,"Anglais, Excel, Optimisation, équipe",NA,59
+"Objectware","Objectware",4,"Secteur informatique, ESN",1,"SQL, équipe",NA,44
+"Octopus Energy","Octopus Energy",1,NA,NA,"AWS, Anglais, Autonome, Autonôme, Communication, Excel, Français, Git, Python, Reporting, SQL, Spark, Tableau, Visualisation de donnée, équipe",NA,75
+"Octopus Energy Group","Octopus Energy Group",1,NA,NA,"AWS, Anglais, Autonome, Autonôme, Communication, Excel, Français, Git, Python, Reporting, SQL, Spark, Tableau, Visualisation de donnée, équipe",NA,75
+"Octopus IT","Octopus IT",1,"Secteur informatique, ESN",NA,"AWS, Azure, Curiosité, Optimisation, PyTorch, Python, équipe",NA,75
+"Omniciel","Omniciel",2,"Services aux Entreprises, Secteur informatique, ESN",1,"Dataviz, Rapport, Tableau, équipe",40,13
+"Onepoint","Onepoint",6,"Secteur informatique, ESN",0,"Anglais",NA,75
+"Open","Open",2,"Secteur informatique, ESN",NA,"AWS, Azure, Git, Python, Spark, équipe",NA,92
+"Opteamis","Opteamis",1,NA,NA,"Base de donnée, Bases de donnée, Git, Google Cloud, NLP, Natural Language Processing, Programmation, Python, SQL, équipe",NA,75
+"Opéra Conseil","Opéra Conseil",1,NA,NA,"Deep Learning",NA,69
+"Orange","Orange",3,"Industrie high-tech, Telecom",0,"Tableau, équipe",NA,33
+"Orange Business","Orange Business",4,"Secteur informatique, ESN",2.5,"équipe",NA,13
+"Orano","Orano",6,"Secteur Energie, Environnement",0.666666666666667,"Statistique",NA,26
+"Ornikar","Ornikar",1,NA,NA,"Communication, Français, Google Cloud, Optimisation, Python, SQL, Statistique, modélisation, équipe",NA,75
+"Orthogrid systems","Orthogrid systems",2,"Secteur informatique, ESN",NA,"Deep Learning",NA,67
+"Otteo","Otteo",2,"Secteur informatique, ESN",1,"Google Cloud, modélisation, équipe",42,59
+"Ouest France","Ouest France",1,NA,NA,"Autonome, Autonôme, Collaboration, Curiosité, Git, Intelligence artificielle, NLP, Python, équipe",NA,35
+"PARIS-SACLAY CENTER FOR DATA SCIENCE","PARIS-SACLAY CENTER FOR DATA SCIENCE",1,NA,NA,"Collaboration, Programming, Python",NA,91
+"PERSUADERS RH","PERSUADERS RH",2,"Services aux Entreprises",7,"équipe",NA,92
+"PERSÉ BEAUTY","PERSÉ BEAUTY",1,NA,NA,"Anglais, Autonome, Autonôme, Bases de donnée, Collaboration, Communication, NLP, Python, équipe",NA,75
+"PMU","PMU",3,"Service public des collectivités territoriales",1,"AWS, Collaboration, équipe",60,75
+"POLARYS","POLARYS",2,NA,NA,"Deep Learning, English, Rigueur, équipe",NA,92
+"PRO BTP GROUPE","PRO BTP GROUPE",1,NA,NA,"Collaboration, Communication, Excel, Français, Prévision, Reporting, équipe",45,94
+"PROSOL","PROSOL",1,NA,NA,"AWS, Apprentissage profond, Autonome, Autonôme, Azure, Bases de donnée, Collaboration, Excel, Matplotlib, Programmation, PyTorch, Python, Résolution de Problèmes, SQL, Spark, Statistique, TensorFlow, équipe",NA,69
+"PROXIEL","PROXIEL",1,NA,NA,"Git, Prévision, Python, SQL, Spark",NA,34
+"PSA Retail France SAS","PSA Retail France SAS",3,"Distribution, Commerce de gros",0,"Collaboration, Communication",NA,78
+"PUR","PUR",1,NA,NA,"Deep Learning",NA,75
+"Pacific Pêche","Pacific Pêche",1,NA,NA,"Bases de donnée, Excel, Français, Git, Optimisation, Programmation, Reporting, Tableau, équipe",NA,34
+"Paie & Rh Solutions","Paie & Rh Solutions",1,NA,NA,"Reporting, SQL, VBA, équipe",NA,64
+"Partnaire","Partnaire",1,"Services aux Entreprises",7,"Collaboration, Optimisation, Reporting, équipe",55,45
+"People Way","People Way",1,NA,NA,"Anglais, Bases de donnée, Collaboration, Communication, Créativité, Excel, Français, Optimisation, Python, Rapport, Statistique, modélisation, équipe",NA,75
+"Pernod Ricard","Pernod Ricard",9,"Industrie Agro-alimentaire",NA,"Git",NA,75
+"Philips","Philips",1,NA,NA,"Anglais, Excel, Python, modélisation, équipe",NA,75
+"Pictarine","Pictarine",1,NA,NA,"Anglais, Communication, Créativité, Excel, Power BI, Python, R Studio, Rapport, SQL, Tableau, Team Player, collecte de données, équipe",NA,NA
+"Pigment","Pigment",1,"Secteur informatique, ESN",NA,"Deep Learning",NA,NA
+"Pixie Services France","Pixie Services France",4,"Secteur informatique, ESN",7,"Bases de donnée, C++, Collaboration, Hadoop, Programmation, Python, SQL, Spark, Statistique, équipe",NA,59
+"Polyconseil","Polyconseil",4,"Secteur informatique, ESN",0,"AWS, Excel, Français, Git, Optimisation, Programmation, Python, modélisation, équipe",NA,75
+"Postuler","Postuler",3,"Services aux Entreprises",3,"équipe",NA,57
+"PriceHubble","PriceHubble",7,"Immobilier, Secteur informatique, ESN",NA,"English, Python, Spark",NA,75
+"Procter & Gamble","Procter & Gamble",1,NA,NA,"Autonomous, Big Data Technologies, Communication, Communication Skills, English, Excel, French",NA,75
+"Promovacances","Promovacances",1,"Restauration, Tourisme, Hôtellerie, Loisirs",1,"Français, équipe",NA,75
+"Proxiel","Proxiel",2,"Secteur informatique, ESN",1,"Collaboration, Optimisation, Python, SQL, équipe",38,13
+"Publicis Groupe","Publicis Groupe",1,NA,NA,"Azure, Git, Intelligence artificielle, Optimisation, Python, Spark, Statistique, modélisation",NA,75
+"Publicis Sapient","Publicis Sapient",1,"Média, Internet, Communication",NA,"Database, Git",NA,75
+"PwC","PwC",16,"Secteur informatique, ESN",NA,"équipe",NA,92
+"QIMA","QIMA",1,NA,NA,"Anglais, Communication, Curiosité, Excel, Rapport, Reporting, Rigueur, Statistique",NA,NA
+"QUANTILIA","QUANTILIA",1,NA,NA,"Collaboration, Database, English, Python",NA,6
+"Qare","Qare",1,NA,NA,"Collaboration, Excel, Git, Python, Rapport, SQL, Statistique, Tableau, équipe",NA,75
+"Quadra Informatique","Quadra Informatique",1,NA,NA,"Communication, Reporting, Rigueur, équipe",NA,67
+"Quantum Surgical","Quantum Surgical",2,NA,NA,"Deep Learning",NA,34
+"R&S TELECOM","R&S TELECOM",1,NA,NA,"Bases de donnée, Collaboration, Optimisation, SQL, Tableau, modélisation, équipe",NA,75
+"RADèS","RADèS",7,NA,3,"Anglais, Curiosité, Excel, équipe",45,NA
+"RD2 CONSEIL","RD2 CONSEIL",2,NA,NA,"Anglais, Collaboration, Intelligence artificielle, Programmation, Python, Statistique, équipe",NA,69
+"RECONOMIA","RECONOMIA",1,NA,NA,"Autonome, Autonôme, Collaboration, Programmation, Python, équipe",NA,59
+"RECRUTONS ENSEMBLE","RECRUTONS ENSEMBLE",1,NA,NA,"AWS, Autonome, Autonôme, Excel, Git, Programmation, équipe",NA,13
+"RSM","RSM",2,"Banque, Assurance, Finance",0,"Excel, Français, Optimisation, Rapport",NA,44
+"Rakam","Rakam",2,"Services aux Entreprises",NA,"",NA,92
+"Rakuten","Rakuten",1,NA,NA,"Deep Learning",NA,75
+"Reactis Services","Reactis Services",3,"Secteur informatique, ESN",1,"Reporting",45,94
+"Recrulab","Recrulab",1,NA,NA,"Autonome, Autonôme, Optimisation, Programmation, Reporting, Tableau, VBA, équipe",45,69
+"Renault Group","Renault Group",7,NA,NA,"Anglais",NA,78
+"Repro-IT","Repro-IT",2,"Distribution, Commerce de gros, Secteur informatique, ESN",7,"Collaboration, équipe",28,59
+"Rhodium Group","Rhodium Group",1,NA,NA,"Collaboration, Data Visualization, Database, English, NLP, Natural Language Processing, Optimization, Python, SQL, Statistics, Tableau",NA,75
+"Roche","Roche",1,NA,NA,"Anglais, Autonome, Autonôme, Base de donnée, Français, Statistique",NA,75
+"Rte international","Rte international",1,NA,NA,"Artificial intelligence, Collaboration, Communication, Communication Skills, Git, NLP, Natural Language Processing, Optimization, Programmation, Programming, Project Management, PyTorch, Python, Team Collaboration, Version Control",NA,92
+"SAS AKERWISE","SAS AKERWISE",1,NA,NA,"Azure, Collaboration, Power BI, Rapport, SQL, Statistique, Tableau, équipe",270,75
+"SATT Sud Est","SATT Sud Est",1,NA,NA,"Deep Learning",31,13
+"SCC","SCC",1,"Secteur informatique, ESN",7,"Collaboration, Git, équipe",NA,92
+"SCOR","SCOR",2,NA,NA,"Deep Learning",NA,75
+"SERMA Technologies","SERMA Technologies",1,NA,NA,"Collaboration, Curiosité, Python, modélisation, équipe",NA,33
+"SFR","SFR",6,"Industrie high-tech, Telecom",0,"Bases de donnée, Reporting, SQL, équipe",NA,75
+"SIACI SAINT HONORE","SIACI SAINT HONORE",2,NA,NA,"Bases de donnée, Intelligence artificielle, Programmation, Python, Statistique, équipe",NA,75
+"SII Atlantique","SII Atlantique",2,"Secteur informatique, ESN",NA,"Créativité, Spark, équipe",37.5,37
+"SII Est","SII Est",1,"Secteur informatique, ESN",1,"Créativité, Curiosité, Tableau, équipe",30,67
+"SII Ile de France","SII Ile de France",6,"Secteur informatique, ESN",7,"Créativité, équipe",41,76
+"SII Nord","SII Nord",10,"Secteur informatique, ESN",0,"Python, SQL, équipe",29.8,59
+"SII Ouest","SII Ouest",4,"Secteur informatique, ESN",NA,"Autonome, Autonôme, Créativité, équipe",38.75,72
+"SII Technologies GmbH HR-Service","SII Technologies GmbH HR-Service",1,NA,NA,"Créativité, Excel, Git, Python, modélisation, équipe",42,92
+"SILAMIR","SILAMIR",1,NA,NA,"Rigueur, équipe",NA,75
+"SIPLEC","SIPLEC",1,NA,NA,"Excel, Français, Tableau, équipe",NA,94
+"SKIILS SAS","SKIILS SAS",3,NA,NA,"SQL",400,75
+"SNCF","SNCF",2,NA,NA,"Programmation, Rapport, équipe",NA,75
+"SNCF Connect & Tech","SNCF Connect & Tech",4,"Média, Internet, Communication, Transport, Logistique",NA,"Deep Learning",NA,75
+"SOMFY Group","SOMFY Group",2,NA,NA,"Anglais, Excel, Français, Git, équipe",NA,74
+"SQLI","SQLI",1,"Secteur informatique, ESN",0,"AWS, Azure, Collaboration, SQL, modélisation, équipe",NA,76
+"SUEZ","SUEZ",10,"Secteur Energie, Environnement",0,"Python",NA,78
+"SURICATE IT","SURICATE IT",1,NA,NA,"Deep Learning",500,75
+"SYNERGIE","SYNERGIE",1,NA,NA,"Collaboration, Curiosité, Français, Intelligence artificielle, NLP, Optimisation, Programmation, Python, Rigueur, SQL, Statistique, équipe",NA,59
+"SYSTNAPS","SYSTNAPS",1,NA,NA,"Anglais, Base de donnée, Bases de donnée, Français, Git, Programmation, Rapport, Statistique, équipe",NA,94
+"Saegus","Saegus",7,NA,4,"Anglais, Azure, Excel, Français, Power BI, Python, SQL, Tableau, modélisation, équipe",48,NA
+"Safilo","Safilo",1,NA,NA,"Anglais, Collaboration, Database, Excel, Programmation, Prévision, Rigueur, Tableau, équipe",NA,92
+"Safran","Safran",23,"Industrie Aéronautique, Aérospatial",2.33333333333333,"équipe",NA,77
+"Saint Gobain","Saint Gobain",2,NA,NA,"Anglais, Deep Learning, Français, Git, Python, Statistique, équipe",NA,92
+"Saint Maclou","Saint Maclou",2,NA,NA,"Reporting, SQL, équipe",33,59
+"Salomon","Salomon",2,NA,NA,"Anglais, Autonome, Autonôme, Excel, équipe",NA,74
+"Sanofi","Sanofi",7,"Industrie Pharmaceutique, Biotechn., Chimie",NA,"Excel, Git",NA,69
+"Saur","Saur",3,"Secteur Energie, Environnement",4,"Deep Learning",NA,75
+"Scalian","Scalian",2,"Santé, Social, Association, Secteur informatique, ESN",7,"SQL, Tableau",38,35
+"Schneider Electric","Schneider Electric",5,NA,NA,"Communication",NA,6
+"Science me Up","Science me Up",1,NA,NA,"Anglais, Communication, Curiosité, Python, équipe",NA,NA
+"Segula Technologies","Segula Technologies",4,"Industrie Auto, Meca, Navale",3.5,"Rapport, Tableau, équipe",NA,91
+"Sense4data","Sense4data",1,NA,NA,"Anglais, Communication, Excel, Français, Git, Programmation, Python, SQL, Statistique, modélisation, équipe",NA,33
+"Sephora","Sephora",2,NA,NA,"Collaboration, Créativité, Excel, équipe",NA,45
+"Sept Lieues","Sept Lieues",5,"Services aux Entreprises",7,"équipe",60,75
+"Sercel","Sercel",1,NA,NA,"Excel, Python, Statistique, équipe",NA,44
+"Servier","Servier",1,"Industrie Pharmaceutique, Biotechn., Chimie",NA,"Autonome, Autonôme, Communication, Excel, Git, Google Cloud, Optimisation, Prévision, équipe",NA,92
+"Seyos","Seyos",11,"Secteur informatique, ESN",1,"Python, équipe",49.0909090909091,67
+"Shift Technology","Shift Technology",2,NA,NA,"English, French, Statistics",NA,75
+"Shippeo","Shippeo",44,NA,NA,"Attention to Detail, Collaboration, Data Cleaning, English, Excel, French, Proactive, Reporting, Tableau",NA,75
+"Shopopop","Shopopop",1,"Services aux Personnes, Particuliers",1,"Git, Optimisation, Python, SQL, modélisation, équipe",37,44
+"Shortways","Shortways",1,NA,NA,"Anglais, Autonome, Autonôme, Git, Programmation, Python, Rapport, Reporting, Spark, Statistique, Tableau, équipe",NA,53
+"Showroomprivé","Showroomprivé",1,"Média, Internet, Communication",0,"Curiosité, Python, Rigueur, SQL, Statistique, TensorFlow, modélisation, équipe",NA,93
+"Sia Partners","Sia Partners",2,"Services aux Entreprises",NA,"Anglais, C++, Excel, Français, Intelligence artificielle, Optimisation, Programmation, Prévision, Python, Statistique, équipe",NA,75
+"Sightengine","Sightengine",1,NA,NA,"PyTorch, Python, TensorFlow",NA,NA
+"Sii","Sii",1,NA,NA,"Créativité, Excel, Git, Python, modélisation, équipe",42,92
+"Silkhom","Silkhom",3,"Services aux Entreprises",NA,"Power BI, SQL, équipe",45,56
+"Sim&Cure","Sim&Cure",1,NA,NA,"Deep Learning",NA,34
+"Size Up Consulting","Size Up Consulting",2,"Secteur informatique, ESN",7,"Gestion de Projets, équipe",NA,75
+"Siège de l'AP-HP","Siège de l'AP-HP",1,NA,NA,"Anglais, Base de donnée, Collaboration, Curiosité, Français, Git, Programmation, Python, Rapport, Rigueur, SQL, Statistique, équipe",NA,75
+"Smarteo","Smarteo",1,NA,NA,"Collaboration, Communication, Excel, Intelligence artificielle, Proactive, PyTorch, Python, Statistique, TensorFlow, équipe",NA,NA
+"Société Générale","Société Générale",6,NA,NA,"équipe",NA,92
+"Société Générale Securities Services","Société Générale Securities Services",1,NA,NA,"Adaptabilité, Communication, English, Excel, Power BI, Rigueur, Tableau, modélisation, équipe",NA,92
+"Socomec","Socomec",1,NA,NA,"Anglais, C++, Gestion de Projets, Intelligence artificielle, Statistique, équipe",NA,67
+"Sodebo","Sodebo",1,"Industrie Agro-alimentaire",1,"Statistique, équipe",NA,85
+"Sodexo","Sodexo",44,NA,NA,"Autonomous, Communication, Curious, English, Excel, Français, French, Power BI, Proactive",NA,92
+"Softeam","Softeam",1,NA,NA,"Anglais, Communication, Intelligence artificielle, Programmation, Python, modélisation, équipe",NA,75
+"Sogeti","Sogeti",1,NA,NA,"Azure, Bases de donnée, Git, Power BI, Python, SQL, Statistique, modélisation, équipe",NA,31
+"Solutec","Solutec",2,"Secteur informatique, ESN",NA,"Power BI, Python, Tableau, modélisation, équipe",NA,31
+"Somfy","Somfy",1,"Industrie high-tech, Telecom",NA,"Anglais, Azure, Collaboration, Créativité, Excel, Français, Git, Optimisation, Python, équipe",NA,74
+"Sopra Steria","Sopra Steria",44,"Secteur informatique, ESN",5.2,"équipe",NA,44
+"Sorare","Sorare",1,NA,NA,"Communication, Communication Skills, Data Visualization, English, Excel, French, Python, SQL, Statistics, Tableau",NA,75
+"Soredab","Soredab",2,"Industrie Agro-alimentaire",0,"Azure, Curiosité, Git, Optimisation, Python, SQL, équipe",NA,78
+"Soyhuce","Soyhuce",2,NA,NA,"Deep Learning, Git, Python, SQL, Statistique, équipe",NA,75
+"Spare Parts 3D","Spare Parts 3D",1,NA,NA,"Data Visualization, Database, Git, Power BI, Proactive, Programming, Python, SQL, Tableau, Version Control",NA,75
+"Sparteo","Sparteo",1,NA,NA,"Artificial intelligence, Autonomous, Collaboration, English, French, Python, SQL",NA,59
+"Stalaven","Stalaven",1,NA,NA,"Prévision, Python, équipe",NA,22
+"Stellantis","Stellantis",8,NA,NA,"Git",NA,78
+"Stereolabs","Stereolabs",4,"Secteur informatique, ESN",NA,"Deep Learning, équipe",NA,75
+"Streem Energy","Streem Energy",1,NA,NA,"Deep Learning",NA,75
+"Sully Group","Sully Group",1,NA,NA,"Intelligence artificielle, Python, Tableau, équipe",NA,38
+"Suntory Beverage & Food France","Suntory Beverage & Food France",1,NA,NA,"AWS, Anglais, Azure, Communication, Excel, Git, Optimisation, Power BI, Programmation, Python, Rapport, Serieux, Statistique, Tableau, équipe",60,92
+"SymphonyAI","SymphonyAI",1,NA,NA,"Deep Learning",NA,75
+"Synopsia","Synopsia",1,NA,NA,"Anglais, Azure, NLP, Power BI, Programmation, Python, SQL, modélisation, équipe",45,75
+"Systemathics","Systemathics",2,NA,NA,"Data Visualization, Python, data collection",NA,75
+"TEAM IS","TEAM IS",1,NA,NA,"Collaboration, Prévision, Python, SQL, Statistique, modélisation, équipe",60,75
+"TF1","TF1",1,NA,NA,"Communication, Dataviz, Excel, Forecasting, Français, Git, Optimisation, Power BI, Programmation, Python, SQL, équipe",NA,75
+"TOUTON SA","TOUTON SA",1,NA,NA,"Anglais, Bases de donnée, Excel, Français, Power BI, Rapport, SQL, Visualisation de donnée, équipe",NA,33
+"TRSB","TRSB",4,"Média, Internet, Communication, Distribution, Commerce de gros, Secteur informatique, ESN",7,"Anglais",NA,75
+"Talan","Talan",45,"Secteur informatique, ESN",6.10344827586207,"équipe",NA,75
+"Talan Consulting","Talan Consulting",1,NA,NA,"AWS, Autonome, Autonôme, Azure, Git, Power BI, SQL, Spark, Tableau, équipe",NA,75
+"Talenteeds","Talenteeds",1,NA,NA,"Artificial intelligence, Communication, Communication Skills, Excel, Git, Project Management, Reporting",NA,75
+"Tata Consultancy Services","Tata Consultancy Services",7,NA,4,"Adaptability, Git, Programming, Project Management, SQL",NA,NA
+"Teads","Teads",1,NA,NA,"AWS, Artificial intelligence, Autonomous, Collaboration, Communication, Communication Skills, Creativity, Curious, Git, Optimization, Programming, Spark, Statistics",NA,34
+"Team.is","Team.is",5,"Secteur informatique, ESN",1,"équipe",60,33
+"Tech Riders","Tech Riders",44,NA,NA,"Anglais, Autonome, Autonôme, Collaboration, Excel, Optimisation, Proactive, Rigueur, modélisation, équipe",NA,75
+"Terrena","Terrena",1,NA,NA,"Bases de donnée, Reporting, Rigueur, Statistique, Tableau, équipe",NA,NA
+"Thales","Thales",6,NA,NA,"Communication, équipe",NA,92
+"The Information Lab","The Information Lab",1,NA,NA,"Anglais, Communication, Excel, Français, Git, Rigueur, Tableau, Team Player, équipe",45,75
+"The Product Crew","The Product Crew",7,NA,NA,"Français",NA,NA
+"Tortoise","Tortoise",1,"Secteur informatique, ESN",NA,"Base de donnée, Intelligence artificielle, Programmation, Python, Rigueur, Statistique, équipe",NA,75
+"TotalEnergies","TotalEnergies",6,NA,NA,"Anglais, Python, équipe",NA,92
+"Tuanis IT","Tuanis IT",2,"Secteur informatique, ESN",7,"Anglais, Hadoop, Optimisation, Power BI, Reporting, SQL, Spark, modélisation, équipe",NA,31
+"Twenty One Talents","Twenty One Talents",2,"Industrie high-tech, Telecom, Média, Internet, Communication",7,"Collaboration, Optimisation, équipe",48,75
+"U IRIS","U IRIS",2,"Secteur informatique, ESN",1,"Collaboration, Git, Intelligence artificielle, Python, SQL, modélisation, équipe",40,44
+"UPTOO","UPTOO",7,"Services aux Entreprises",NA,"Reporting",45,13
+"UTWIN","UTWIN",1,NA,NA,"Autonome, Autonôme, Git, Optimisation, Programmation, Reporting, Statistique, Tableau, VBA, équipe",NA,69
+"Ubisoft","Ubisoft",3,"Secteur informatique, ESN",0,"Python, Statistique, équipe",NA,75
+"Unibail-Rodamco-Westfield","Unibail-Rodamco-Westfield",2,"Immobilier",NA,"Collaboration, Communication, Excel, Git, Intelligence artificielle, Power BI, Proactif, Programmation, Python, Statistique, Tableau, équipe",NA,75
+"United Solutions","United Solutions",2,"Secteur informatique, ESN",1,"Optimisation, modélisation, équipe",45,69
+"Universcience","Universcience",1,NA,NA,"Base de donnée, Bases de donnée, Collaboration, Power BI, Programmation, Python, Reporting, Statistique, Tableau, équipe",43,75
+"Université de Montpellier","Université de Montpellier",1,NA,NA,"Autonome, Autonôme, Excel, Français, Rigueur, équipe",1,34
+"Université de Nantes","Université de Nantes",1,NA,NA,"Anglais, Français, Rapport, équipe",NA,44
+"Unlck Recrutement","Unlck Recrutement",4,"Services aux Entreprises, Secteur informatique, ESN",3.5,"SQL, équipe",45.5,6
+"Utigroup","Utigroup",7,"Secteur informatique, ESN",7,"équipe",40.2857142857143,69
+"VALTAO","VALTAO",1,NA,NA,"Collaboration, English, Excel, French, Rapport, Reporting, équipe",NA,95
+"VIF","VIF",2,"Industrie Agro-alimentaire, Secteur informatique, ESN",7,"Collaboration, équipe",NA,44
+"VINCI Autoroutes","VINCI Autoroutes",2,NA,NA,"Excel, équipe",NA,92
+"VINCI Construction","VINCI Construction",3,NA,NA,"équipe",NA,94
+"VINCI Energies","VINCI Energies",1,NA,NA,"Autonome, Autonôme, Communication, Git, Python, SQL, Statistique, Tableau, équipe",NA,92
+"VISIAN","VISIAN",2,NA,NA,"Git",450,75
+"VO2 GROUP","VO2 GROUP",1,NA,NA,"Anglais, Communication, Excel, Proactif, Reporting, SQL",600,75
+"Vaisala","Vaisala",1,NA,NA,"Autonomous, Database, English, Excel, French, Git, Python",NA,75
+"Valeo","Valeo",4,"Industrie Auto, Meca, Navale",0,"Collaboration",NA,95
+"Valeuriad","Valeuriad",1,NA,NA,"Git, Hadoop, Intelligence artificielle, NLP, PyTorch, Python, SQL, Spark, TensorFlow, modélisation, équipe",NA,44
+"Valoway","Valoway",1,NA,NA,"AWS, Azure, Communication, Curiosité, Excel, Intelligence artificielle, NLP, Optimisation, Power BI, Prévision, Python, SQL, Spark, Tableau, modélisation, équipe",45,44
+"Veepee","Veepee",1,NA,NA,"AWS, Dataviz, Git, NLP, PyTorch, Python, SQL, Spark, Statistique, Tableau, équipe",NA,75
+"Vente 2 Site","Vente 2 Site",1,NA,NA,"Autonome, Autonôme, Proactif, équipe",NA,94
+"Verisure","Verisure",1,NA,NA,"Anglais, Azure, Excel, Power BI, Python, Rapport, SQL, Serieux, Tableau, équipe",NA,92
+"Vetoquinol","Vetoquinol",1,NA,NA,"Anglais, Excel, Français, SQL, Tableau, VBA, équipe",NA,70
+"Viatris","Viatris",1,NA,NA,"Anglais, Excel, Power BI, Python, Rapport, SQL, Tableau, équipe",NA,69
+"Visian","Visian",7,NA,4,"Anglais, Bases de donnée, Python, SQL, Tableau",NA,NA
+"Visuary","Visuary",1,NA,NA,"Autonomous, Proactive, PyTorch, Python",NA,75
+"Viveris.","Viveris.",5,"Secteur informatique, ESN",1,"équipe",40,94
+"Volvo Group","Volvo Group",5,"Industrie Auto, Meca, Navale",NA,"Collaboration, Communication, Git, Python",NA,69
+"WAISSO","WAISSO",1,NA,NA,"Anglais, Dataviz, Excel, Git, Tableau, équipe",NA,75
+"WHEEL OF WORK","WHEEL OF WORK",1,NA,NA,"Bases de donnée, Collaboration, Communication, Power BI, Rapport, équipe",500,59
+"Walters People","Walters People",1,"Distribution, Commerce de gros",1,"Collaboration, équipe",35,95
+"Wanteeed","Wanteeed",7,NA,4,"Autonome, Autonôme, Collaboration, Dataviz, R Studio, SQL, Statistique, équipe",45,NA
+"Warner Music France","Warner Music France",7,NA,NA,"Anglais, Collaboration, Communication, Excel, Français, Git, Python, Rapport, SQL, Tableau, équipe",NA,NA
+"Wavestone","Wavestone",2,"Services aux Entreprises",0,"Git, Tableau, équipe",NA,75
+"We IT","We IT",1,"Média, Internet, Communication, Secteur informatique, ESN",1,"Français, French, Hadoop, Programmation, Rigueur, Spark",42,NA
+"WeSmart","WeSmart",1,NA,NA,"Anglais, Azure, Communication, Excel, Français, Programmation, Python, Résolution de Problèmes, Spark, Statistique, collecte de données, modélisation, équipe",45,75
+"Wekey","Wekey",1,NA,NA,"Autonome, Autonôme, Collaboration, Communication, Excel, Git, Programmation, PyTorch, Python, Statistique, TensorFlow, équipe",600,79
+"Wewyse","Wewyse",2,"Média, Internet, Communication",2,"Anglais",NA,75
+"Withings","Withings",4,"Distribution, Commerce de gros",0,"Anglais, Communication, Deep Learning, French, Python, Rigueur, équipe",NA,92
+"Wivoo","Wivoo",16,NA,NA,"Anglais, Communication, Programmation, Python, SQL, équipe",NA,NA
+"WizVille","WizVille",7,NA,2,"Bases de donnée, Collaboration, Communication, Curiosité, Data Visualization, Programmation, Python, SQL, modélisation, équipe",45,NA
+"Wizaly","Wizaly",1,NA,NA,"Bases de donnée, Git, Hadoop, Intelligence artificielle, Rigueur, SQL, Spark, équipe",NA,75
+"X-FAB","X-FAB",44,NA,NA,"Collaboration, Communication, English, Excel, French, Statistics",NA,91
+"XL Catlin","XL Catlin",1,NA,NA,"Collaboration, Communication, Communication Skills, Database, English, Excel, Reporting, Team Player",NA,75
+"XPDEEP","XPDEEP",1,NA,NA,"Deep Learning",NA,38
+"Zoī","Zoī",1,NA,NA,"AWS, Communication, English, Excel, French, Git, Presentation Skills, Python, Statistics",NA,75
+"autobiz","autobiz",1,NA,NA,"Anglais, Base de donnée, Intelligence artificielle, Programmation, Python, SQL, Statistique, modélisation, équipe",NA,92
+"datafab.io","datafab.io",1,NA,NA,"Deep Learning",NA,94
+"delaware","delaware",2,NA,NA,"Anglais, Français, Rapport, Tableau, équipe",NA,59
+"evoteo","evoteo",21,NA,3,"Python, Rigueur, SQL, Tableau, équipe",38,NA
+"evs professionnel","evs professionnel",14,NA,3,"Bases de donnée, Collaboration, Excel, Git, Reporting, SQL, Statistique, Tableau, équipe",NA,NA
+"ey","ey",1,NA,NA,"Anglais, Communication, Excel, Français, Git, Rapport, Reporting, Rigueur, Statistique, équipe",NA,92
+"iAdvize","iAdvize",1,NA,NA,"Anglais, Autonome, Autonôme, Communication, Créativité, Excel, Français, French, Intelligence artificielle, Programmation, Python, SQL, Statistique, Tableau, Visualisation de donnée, équipe",NA,44
+"informatis-ts","informatis-ts",3,NA,NA,"Base de donnée, SQL",NA,10
+"iziwork","iziwork",1,NA,NA,"Anglais, Excel, Git, Python, SQL",40,44
+"onepoint Group","onepoint Group",4,NA,NA,"Curiosité, Dataviz, Intelligence artificielle, Tableau, équipe",NA,75
+"orano","orano",4,NA,NA,"équipe",NA,50
+"papernest","papernest",46,NA,NA,"English, Français, SQL",NA,75
+"profil","profil",9,NA,NA,"équipe",33,75
+"skiils","skiils",14,NA,3,"équipe",50.5,NA
+"stages","stages",3,"Services aux Entreprises",0.333333333333333,"équipe",538.333333333333,92
+"veepee_france","veepee_france",1,"Distribution, Commerce de gros",NA,"AWS, Dataviz, Git, NLP, PyTorch, Python, SQL, Spark, Statistique, Tableau, équipe",NA,75
+"wefox","wefox",1,NA,NA,"Collaboration, Database, English, Git, Python, SQL",NA,75

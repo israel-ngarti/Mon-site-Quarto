@@ -1,0 +1,307 @@
+---
+title: "base_emp"
+output: html_document
+date: "2024-12-10"
+---
+Chargement des packages
+
+```{r}
+library(dplyr)
+library(readr)
+library(stringr)
+library(tidyr)
+library(stringi)
+```
+
+
+```{r}
+emp_offers <- read_csv("data/emp_offers_fmt.tsv", show_col_types = FALSE)
+```
+
+
+
+
+
+```{r}
+# Avoir la liste des entreprises
+distinct(emp_offers, entreprise, .keep_all = FALSE)
+```
+```{r}
+
+# Harmoniser les noms des entreprises
+# Suppression des éléments tels que "SA", "Inc", etc., pour uniformiser
+ emp_offers_clean <- emp_offers %>%
+  mutate(
+    entreprise = str_to_lower(entreprise), # Mettre en minuscule
+    entreprise = stri_trans_general(entreprise, "Latin-ASCII"), # Supprimer accents
+    entreprise = str_trim(entreprise), # Supprimer espaces inutiles
+    entreprise = str_replace_all(entreprise, "\\s*(sa|inc|ltd|sarl|sas|gmbh|plc|corp)\\s*$", ""), # Supprimer suffixes
+    entreprise = str_squish(entreprise), # Supprimer espaces multiples
+    entreprise = case_when(
+      str_detect(entreprise, "axa assurances|axa funds management|axa partners|axa en france") ~ "axa",
+      str_detect(entreprise, "bouygues construction it|bouygues telecom|bouygues travaux publics") ~ "bouygues",
+      str_detect(entreprise, "ab science|ab tasty") ~ "ab",
+      str_detect(entreprise, "airbus helicopters") ~ "airbus",
+      str_detect(entreprise, "auchan retail internationa|auchan retail france") ~ "auchan",
+      str_detect(entreprise, "banque populaire rives de paris|banque populaire mediteranee") ~ "banque populaire",
+      str_detect(entreprise, "bouygues construction it|bouygues telecom|bouygues travaux publics") ~ "bouygues",
+      str_detect(entreprise, "credit agricole consumer finance|credit agricole assurances|credit agricole centre loire|credit agricole cib|credit agricole des regions du centre|credit agricole du nord est|credit agricole s.a.|credit agricole champagne bourgogne|credit agricole group infrastructure plateform") ~ "credit agricole",
+      str_detect(entreprise, "free mobile|free reseau") ~ "free",
+      str_detect(entreprise, "societe generale|societe generale securities services") ~ "societe generale",
+      str_detect(entreprise, "groupama asset management|groupama assurances mutuelles|groupama gan vie|groupama rhone alpes auvergne|groupama supports et services|groupama centre manche") ~ "groupama",
+      str_detect(entreprise, "cdiscount stage") ~ "cdiscount",
+      str_detect(entreprise, "capgemini invent") ~ "capgemini",
+      str_detect(entreprise, "octopus energy|octopus energy group|octopus it") ~ "octopus",
+      str_detect(entreprise, "dassault aviation|dassault systemes") ~ "dassault",
+      str_detect(entreprise, "vinci autoroutes|vinci construction|vinci energies") ~ "vinci",
+      str_detect(entreprise, "sii atlantique|sii est|sii ouest|sii ile de france|sii nord|sii ouest|sii technologies gmbh hr-service") ~ "sii",
+      str_detect(entreprise, "caisse d'epargne grand est europe|caisse d'epargne rhone | caisse d'epargne aquitaine poitou charentes") ~ "caisse d'epargne",
+      str_detect(entreprise, "bpce solutions informatiques") ~ "bpce",
+      str_detect(entreprise, "centre hospitalier departemental de vendee|centre hospitalier departemental de vendee site de la roche sur yon") ~ "centre hospitalier departemental de vendee",
+      str_detect(entreprise, "cls - collecte localisation satellites ") ~ "cls",
+      str_detect(entreprise, "davidson consulting") ~ "davidson",
+      str_detect(entreprise, "somfy group") ~ "somfy",
+      str_detect(entreprise, "publicis sapient |publicis groupe") ~ "publicis",
+      str_detect(entreprise, "talan consulting") ~ "talan",
+      str_detect(entreprise, "veepee_france") ~ "veepee",
+      str_detect(entreprise, "altelios technology group") ~ "altelios technology",
+       str_detect(entreprise, "team.is") ~ "team is",
+       str_detect(entreprise, "sncf connect & tech") ~ "sncf",
+       str_detect(entreprise, "orange business") ~ "orange ",
+       str_detect(entreprise, "onepoint group") ~ "onepoint",
+       str_detect(entreprise, "cgi finance") ~ "cgi",
+
+
+      TRUE ~ entreprise # Garder inchangé si aucune règle ne s'applique
+    )
+  ) %>%
+  
+ filter(!is.na(entreprise) & entreprise != "") # Supprimer les lignes vides ou NA
+```
+```{r}
+# 3. Suppression des entreprises proposant des freelances
+emp_offers_clean <- emp_offers_clean %>%
+  filter(!if_any(c(entreprise, intitule_poste), 
+                 ~ str_detect(., regex("freelance", ignore_case = TRUE))))  
+```
+
+
+
+```{r}
+# 1. Calcul du nombre d'offres par entreprise
+base_emp <- emp_offers_clean %>%
+  group_by(entreprise) %>%
+  summarise(
+    firm_name = first(entreprise),
+    n_offres = n(),
+    .groups = "drop"
+  )
+```
+
+
+```{r}
+# 2. Identification du secteur principal d'activité
+# Sélectionner le secteur le plus fréquent pour chaque entreprise
+sector_main <- emp_offers_clean %>%
+  filter(!is.na(secteur) & secteur != "") %>%
+  group_by(entreprise, secteur) %>%
+  summarise(sector_count = n(), .groups = "drop") %>%
+  arrange(desc(sector_count)) %>%
+  group_by(entreprise) %>%
+  slice(1) %>%
+  select(entreprise, sector_main = secteur)
+
+# Ajout de la colonne sector_main à base_emp
+base_emp <- base_emp %>%
+  left_join(sector_main, by = "entreprise")
+```
+
+
+```{r}
+# 3. Calcul de l'expérience moyenne requise pour chaque entreprise
+exp_moyenne <- emp_offers_clean %>%
+  filter(!is.na(experience_requise)) %>%
+  group_by(entreprise) %>%
+  summarise(avg_req_exp = mean(experience_requise, na.rm = TRUE), .groups = "drop")
+
+base_emp <- base_emp %>%
+  left_join(exp_moyenne, by = "entreprise")
+```
+
+
+```{r}
+# 4. Extraction de la compétence principale (top_skill_req) pour chaque entreprise
+# Séparer les compétences en lignes distinctes pour chaque compétence
+data_skills <- emp_offers_clean %>%
+  separate_rows(competences_requises, sep = ",\\s*") %>%
+  mutate(competences_requises = str_trim(competences_requises))
+
+# Calculer la compétence la plus fréquente pour chaque entreprise
+top_skills <- data_skills %>%
+  group_by(entreprise, competences_requises) %>%
+  summarise(skill_count = n(), .groups = "drop") %>%
+  arrange(desc(skill_count)) %>%
+  group_by(entreprise) %>%
+  summarise(top_skill_req = paste(unique(competences_requises[skill_count == max(skill_count)]), collapse = ", "), .groups = "drop")
+
+base_emp <- base_emp %>%
+  left_join(top_skills, by = "entreprise")
+```
+```{r}
+
+# Étape 1: Nettoyage et préparation des salaires
+salaire_base <- emp_offers_clean %>%
+  select(entreprise, salaire) %>% # Sélectionner uniquement les colonnes nécessaires
+  mutate(
+    # Nettoyage de la colonne salaire
+    salaire_clean = str_replace_all(salaire, "EUR par an|EUR par mois|par an|par mois|\\s", ""),
+    # Supprimer "de" au début des chaînes de caractères
+    salaire_clean = str_replace_all(salaire_clean, "de\\s+", ""),
+    # Remplacer "à" par "-"
+    salaire_clean = str_replace_all(salaire_clean, "à", "-")
+  )
+
+```
+
+```{r}
+salaire_base <- salaire_base %>%
+  mutate(
+    # Extraire la deuxième valeur (borne max du salaire) après "-"
+    max_salaire = as.numeric(str_extract(salaire_clean, "(?<=-)[0-9]+"))
+  )
+
+```
+```{r}
+salaire_base <- salaire_base %>%
+  group_by(entreprise) %>% # Grouper par entreprise
+  summarise(
+    avg_wage = mean(max_salaire, na.rm = TRUE), # Calculer la moyenne des salaires max
+    .groups = "drop" # Désactiver le regroupement
+  ) %>%
+  mutate(
+    # Remplacer les valeurs NaN par NA
+    avg_wage = ifelse(is.nan(avg_wage), NA, avg_wage)
+  )
+
+```
+```{r}
+salaire_base <- salaire_base %>%
+  mutate(
+    avg_wage = case_when(
+     # Salaires entre 30 et 200 : considérés comme abrégés (en milliers)
+      avg_wage >= 30 & avg_wage < 200 & !is.na(avg_wage) ~ avg_wage * 1000,
+      
+     # Salaires entre 10000 et 3000 : considérés comme mensuels, conversion en annuel
+      avg_wage <= 10000 & avg_wage >=1000 & !is.na(avg_wage) ~ avg_wage * 12,
+      avg_wage <= 800 & avg_wage >=500 & !is.na(avg_wage) ~ avg_wage * 360,
+      # Salaires déjà en milliers : ne rien modifier
+      TRUE ~ avg_wage
+    )
+  )
+
+```
+
+
+```{r}
+#5
+# Calcul du salaire moyen pour chaque entreprise
+salaire_base <- emp_offers_clean %>%
+  select(entreprise, salaire) %>% # Sélectionner uniquement les colonnes nécessaires
+  mutate(
+    # Nettoyage de la colonne salaire
+    salaire_clean = str_replace_all(salaire, "EUR par an|EUR par mois|par an|par mois|\\s", ""),
+    salaire_clean = str_replace_all(salaire_clean, "de\\s+", ""), # Supprimer "de" au début
+    salaire_clean = str_replace_all(salaire_clean, "à", "-"), # Remplacer "à" par "-"
+    
+    # Extraction des bornes max
+    max_salaire = as.numeric(str_extract(salaire_clean, "(?<=-)[0-9]+")), # Deuxième valeur
+    
+   
+  ) %>%
+  group_by(entreprise) %>%
+  summarise(
+    avg_wage = mean(max_salaire, na.rm = TRUE), # Calculer le salaire moyen par entreprise
+    .groups = "drop"
+  ) %>%
+  mutate(
+    avg_wage = ifelse(is.nan(avg_wage), NA, avg_wage) # Remplacer NaN par NA
+  )
+# Harmoniser les salaires en milliers 
+salaire_base <- salaire_base %>%
+   mutate(
+    avg_wage = case_when(
+      # Salaires inférieurs à 500 sont abrégés (46 devient 46000)
+      avg_wage < 500 & !is.na(avg_wage) ~ avg_wage * 1000,
+      
+      # Salaires mensuels inférieurs à 10 000 : convertir en annuel
+      avg_wage >= 700 & avg_wage < 10000 ~ avg_wage * 12,
+      
+      # Salaires déjà en milliers : ne pas modifier
+      TRUE ~ avg_wage
+    )
+  )
+
+
+base_emp <- base_emp %>%
+  left_join(salaire_base, by = "entreprise")
+```
+
+
+```{r}
+# 6. Identification du département principal
+dept_main <- emp_offers_clean %>%
+  filter(!is.na(departement)) %>%
+  group_by(entreprise, departement) %>%
+  summarise(dept_count = n(), .groups = "drop") %>%
+  arrange(desc(dept_count)) %>%
+  group_by(entreprise) %>%
+  slice(1) %>%
+  select(entreprise, addr_dept_main = departement)
+
+base_emp <- base_emp %>%
+  left_join(dept_main, by = "entreprise")
+```
+
+```{r}
+base_emp$entreprise=NULL
+```
+
+```{r}
+# Vérifier les résultats
+head(base_emp)
+
+```
+```{r}
+# Exportation de la base_emp au format CSV
+write.csv(base_emp, "base_emp.csv", row.names = FALSE)
+
+```
+
+#APPARIEMENT DES DEUX BASES
+
+
+Pour réaliser l'appariement des deux bases de données, brevets et emploi, nous avons utilisé la fonction full_join en nous appuyant sur la variable commune firm_name.
+```{r}
+base_brevets <- read_csv("data/base_brevets.csv", show_col_types = FALSE)
+
+```
+
+
+```{r}
+base_emp_inno <- full_join(base_brevets, base_emp, by = "firm_name")
+
+# Vérification des premières lignes
+head(base_emp_inno)
+
+``` 
+```{r}
+# Exportation de la base_emp_inno au format CSV
+write.csv(base_emp_inno, "base_emp_inno.csv", row.names = FALSE)
+```
+
+
+
+
+
+
+

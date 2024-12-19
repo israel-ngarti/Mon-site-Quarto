@@ -1,0 +1,237 @@
+## 
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr) 
+library(readr)
+library(stringr)
+library(tidyr)
+library(stringi)
+library(data.table)
+library(knitr)  
+library(kableExtra) 
+library(wordcloud)
+library(tidytext)
+library(ggplot2)
+library(wordcloud2)
+library(RColorBrewer)
+library(viridis)
+library(tidytext)
+library(stopwords)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#Importation des données
+# Lecture des fichiers sans afficher les détails des colonnes
+base_emp <- read_csv("data/base_emp.csv", show_col_types = FALSE)
+base_brevets <- read_csv("data/base_brevets.csv", show_col_types = FALSE)
+base_emp_inno <- read_csv("data/base_emp_inno.csv", show_col_types = FALSE)
+```
+
+# ANALYSE DE DONNEES
+
+### Relation entre le nombre de brevets et les offres d'emploi en fonction des entreprises
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# Nettoyage des données : suppression des valeurs manquantes ou aberrantes
+base_emp_inno_clean <- base_emp_inno %>%
+  filter(!is.na(n_offres) & !is.na(n_patents) & n_patents > 0 & n_offres > 0)
+
+# Création du graphique
+ggplot(base_emp_inno_clean, aes(x = n_patents, y = n_offres)) +
+  geom_point(aes(color = n_patents, size = n_offres), alpha = 0.8) + # Points améliorés
+ 
+  labs(
+    title = "Relation entre le nombre de brevets déposés et les offres d'emploi",
+    subtitle = "Nuage de points avec courbe de tendance lissée",
+    x = "Nombre de brevets",
+    y = "Nombre d'offres d'emploi",
+  size = "Offres d'emploi",
+    color = "Nombre de brevets"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 11, face = "bold", hjust = 0.5),
+    plot.subtitle = element_text(size =11, hjust = 0.5),
+    axis.text = element_text(size = 11),
+    legend.position = "right"
+  )
+
+```
+
+Ce graphique montre une relation non linéaire entre le nombre de brevets déposés et les offres d'emploi. La tendance indique que les entreprises avec un nombre modéré de brevets enregistrent le plus d'offres d'emploi. En revanche, celles avec un très grand nombre de brevets semblent recruter moins. Cela suggère que l'innovation (brevets) n'est pas toujours directement corrélée à la demande en compétences.Ce graphique montre une relation non linéaire entre le nombre de brevets déposés et les offres d'emploi. La tendance indique que les entreprises avec un nombre modéré de brevets enregistrent le plus d'offres d'emploi. En revanche, celles avec un très grand nombre de brevets semblent recruter moins. Cela suggère que l'innovation (brevets) n'est pas toujours directement corrélée à la demande en compétences.
+
+### Relation entre Innovation (Nombre de Brevets) et les salaires moyens
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+# Visualisation - Relation nombre de brevets vs salaire moyen
+base_emp_inno_clean <- base_emp_inno %>%
+  filter(!is.na(avg_wage) & !is.na(n_patents) & avg_wage > 0 & n_patents > 0)
+
+ggplot(base_emp_inno_clean, aes(x = n_patents, y = avg_wage)) +
+  geom_point(aes(color = n_patents, size = avg_wage), alpha = 0.8) +
+  scale_color_viridis_c(option = "plasma", name = "Nombre de brevets") +
+  scale_size_continuous(range = c(3, 10), name = "Salaire moyen") +
+  geom_smooth(method = "loess", color = "darkred", se = TRUE, fill = "pink", linetype = "dashed") +
+  labs(
+    title = "Relation entre le Nombre de Brevets et les Salaires Moyens",
+    x = "Nombre de Brevets",
+    y = "Salaire Moyen"
+  ) +
+ theme_minimal()
+```
+
+Ce graphique représente la relation entre le nombre de brevets déposés et les salaires moyens. La tendance observée est non linéaire, avec une forme en U inversé. Les entreprises déposant peu de brevets affichent des salaires moyens élevés, tandis que celles ayant un nombre modéré de brevets connaissent une diminution notable des salaires. En revanche, pour les entreprises très innovantes (nombre de brevets supérieur à 4000), les salaires augmentent à nouveau. Cela suggère une relation complexe entre innovation et rémunération, probablement influencée par d'autres facteurs comme la taille de l'entreprise ou le secteur d'activité.
+
+### En fonction des secteurs d'activité
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# Fonction pour trouver les 5 valeurs les plus fréquentes pour les variables caractères
+valeurs_frequentes <- function(data, variable, exclude_na = TRUE, top_n = 5) {
+  # Exclure les NA si demandé
+  if (exclude_na) {
+    data <- data %>% filter(!is.na(.data[[variable]]))
+  }
+
+  data %>%
+    group_by(across(all_of(variable))) %>%
+    summarise(count = n(), .groups = "drop") %>%
+    arrange(desc(count)) %>%
+    slice_head(n = 5)
+}
+top_sector <- valeurs_frequentes(base_emp_inno, "sector_main",exclude_na=TRUE, top_n=5)# Création d'un tableau HTML stylisé
+# Graphique à barres horizontales
+
+ggplot(top_sector, aes(x = reorder(sector_main, count), y = count, fill = sector_main)) +
+  geom_bar(stat = "identity", width = 0.7, show.legend = FALSE) +
+  coord_flip() +  # Pour des barres horizontales
+  labs(
+    title = "Top 5 des Secteurs ayant fait beaucoup d'offre d'emploi",
+    x = "Secteurs",
+    y = "Nombre d'Entreprises"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 11, face = "bold", hjust = 0.5),
+    axis.text.y = element_text(size = 10),
+    axis.text.x = element_text(size = 10),
+    axis.title = element_text(size = 12)
+  )
+
+```
+
+Ce graphique montre les 5 secteurs qui ont généré le plus d'offres d'emploi. En tête, le secteur informatique et ESN domine largement, ce qui reflète la forte demande pour des compétences technologiques et numériques. Juste derrière, les Services aux Entreprises occupent la deuxième place, prouvant l’importance des services professionnels. Ensuite, on retrouve la Banque, Assurance, Finance, ainsi que la Distribution et le Commerce de gros, qui restent des secteurs essentiels en termes de création d’emplois. Enfin, le secteur Média, Internet, Communication clôture le top 5, confirmant son rôle dans la demande liée au numérique. La forte disparité avec l’informatique met bien en évidence l’importance de la transformation digitale dans le marché de l’emploi.
+
+Graphique des 5 meilleurs codes IPC par nombre de brevets
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+top_ipc_code <- valeurs_frequentes(base_brevets, "ipc_main_code")
+# Graphique à barres verticales 
+ggplot(top_ipc_code, aes(x = reorder(ipc_main_code, -count), y = count)) +
+  geom_bar(stat = "identity", fill = "steelblue", width = 0.7) +  
+  geom_text(aes(label = count), vjust = -0.5, size = 4) +  
+  labs(
+    title = "Top 5 des Codes IPC par Nombre de Brevets",
+    x = "Codes IPC",
+    y = "Nombre de Brevets"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 11, face = "bold", hjust = 0.5),
+    axis.text.x = element_text(size = 10, angle = 45, hjust = 1),
+    axis.text.y = element_text(size = 10),
+    axis.title = element_text(size = 12)
+  )
+
+```
+
+Ce graphique présente les 5 principaux codes IPC par nombre de brevets déposés. Les deux premiers codes, A61B et A61P, se démarquent nettement. A61B (technologies médicales) et A61P (préparations thérapeutiques) montrent une forte activité dans les secteurs de la santé et de la pharmacie, suggérant une demande élevée en compétences dans la recherche médicale et l’ingénierie biomédicale. B65D (emballages et conteneurs) et A61F (prothèses et implants) indiquent une présence notable d’innovations en logistique et dans les dispositifs médicaux. Enfin, H04L (transmission de données numériques) reflète l’importance des technologies de l’information et des télécommunications, où la demande en compétences numériques telles que réseaux et cybersécurité est forte. Ce graphique met en évidence une concentration des brevets dans les secteurs médicaux, pharmaceutiques et technologiques, suggérant que ces domaines sont moteurs d’innovation et fortement associés à une demande croissante de profils qualifiés dans la science des données, la R&D et l’ingénierie spécialisée.
+
+### La relation entre les meilleues compétences demandées et les entreprises qui deposent des brevets
+
+#### Top 10 des compétences associées avec l'inovation
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# Nettoyage des compétences et séparation des phrases
+top_skills <- base_emp_inno %>%
+  filter(!is.na(top_skill_req), n_patents > 0) %>%  # Exclure NA et brevets nuls
+  separate_rows(top_skill_req, sep = "[,;/|]") %>%  # Séparer les compétences par délimiteurs courants
+  mutate(
+    top_skill_req = str_to_lower(top_skill_req),      # Convertir en minuscules
+    top_skill_req = str_replace_all(top_skill_req, "[[:punct:]]", ""),  # Supprimer la ponctuation
+    top_skill_req = str_squish(top_skill_req)         # Supprimer les espaces inutiles
+  ) %>%
+  filter(
+    str_count(top_skill_req, "\\w+") <= 3,  # Garder uniquement les phrases de 3 mots max
+    !str_detect(top_skill_req, "\\b(autonome|équipe)\\b.*\\1")  # Exclure les répétitions
+  ) %>%
+  group_by(top_skill_req) %>%
+  summarise(total_patents = sum(n_patents, na.rm = TRUE), .groups = "drop") %>%
+  arrange(desc(total_patents)) %>%
+  slice_head(n = 10)  # Garder les 10 compétences principales
+kable(top_skills, format = "html", caption = "Top 10 des compétences les plus demandées en fonction n_patents") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+# Graphique : Barplot propre
+ggplot(top_skills, aes(x = reorder(top_skill_req, total_patents), y = total_patents)) +
+  geom_col(fill = "steelblue", width = 0.7) +
+  coord_flip() +
+  labs(
+    title = "Top 10 des Compétences Associées à l'Innovation",
+    x = "Compétences",
+    y = "Nombre Total de Brevets"
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5, color = "darkblue"),
+    axis.text.y = element_text(size = 12, face = "bold"),
+    axis.text.x = element_text(size = 12),
+    axis.title = element_text(size = 11, face = "bold")
+  )
+
+# Génération du Wordcloud
+wordcloud_data <- top_skills %>%
+  select(top_skill_req, total_patents) %>%
+  rename(word = top_skill_req, freq = total_patents)
+
+# Afficher le Wordcloud
+wordcloud2(wordcloud_data, size = 0.7, color = "random-light", backgroundColor = "white")
+```
+
+Ce graphique met en évidence les 10 compétences les plus associées à l'innovation, mesurées par le nombre total de brevets. La compétence "équipe" se distingue comme la plus importante, soulignant l'importance du travail collaboratif dans les entreprises innovantes. Des compétences techniques comme "git", "python", et "contrôle de gersion" reflètent le rôle crucial des outils de programmation et de gestion de code. Par ailleurs, des compétences transversales comme la "communication" et la "gestion de projets" démontrent leur pertinence dans la coordination des efforts d'innovation. Les compétences analytiques, telles que la "statistique" et la "modélisation", sont également essentielles pour les développements avancés. Enfin, la maîtrise de l'anglais confirme son importance dans les environnements scientifiques et technologiques globaux.
+
+#### Top 10 des compétences pondérées avec le salaire
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# Préparation des données
+barplot_skills <- base_emp_inno %>%
+  filter(!is.na(top_skill_req), !is.na(avg_wage), avg_wage > 0) %>%
+  separate_rows(top_skill_req, sep = "[,;/|]") %>%
+  mutate(
+    top_skill_req = str_to_lower(top_skill_req),
+    top_skill_req = str_replace_all(top_skill_req, "[[:punct:]]", ""),
+    top_skill_req = str_squish(top_skill_req)
+  ) %>%
+  filter(top_skill_req != "", !is.na(top_skill_req)) %>%
+  group_by(top_skill_req) %>%
+  summarise(avg_wage = mean(avg_wage, na.rm = TRUE), .groups = "drop") %>%
+  arrange(desc(avg_wage)) %>%
+  slice_max(avg_wage, n = 10)  # Top 10 compétences
+
+# Création du plot
+ggplot(barplot_skills, aes(x = reorder(top_skill_req, avg_wage), y = avg_wage)) +
+  geom_bar(stat = "identity", fill = "skyblue", color = "black", width = 0.7) +
+  coord_flip() +
+  labs(
+    title = "Top 10 des compétences pondérées avec le salaire",
+    x = "Compétences",
+    y = "Salaire moyen (€)"
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+Ce graphique montre les compétences les plus souvent associées aux salaires élevés, en fonction de leur importance relative. On remarque que des qualités comme la proactivité et l'adaptabilité prennent une grande place, ce qui prouve leur rôle clé dans les postes bien payés. Côté technique, des outils spécifiques comme AWS, Seaborn ou Excel sont aussi très valorisés, ce qui confirme que les compétences spécialisées sont essentielles. On retrouve également des compétences en IA, notamment le NLP (traitement du langage naturel), qui montrent l’importance des technologies innovantes. Les langues, comme le français, ont aussi leur importance, surtout dans des contextes internationaux. Enfin, des qualités personnelles comme l’autonomie et le sérieux sont clairement associées à de bons salaires, ce qui prouve que les entreprises recherchent un mix entre compétences techniques et qualités humaines.

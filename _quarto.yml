@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Site web"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: Statistiques Descriptives.qmd
+        text: Statistiques Descriptives
+      - href: Analyses de Données.qmd
+        text: Analyses de Données
+  
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

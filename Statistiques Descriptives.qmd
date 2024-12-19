@@ -1,0 +1,195 @@
+Chargement des packages
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+
+library(dplyr) 
+library(readr)
+library(stringr)
+library(tidyr)
+library(stringi)
+library(data.table)
+library(knitr)  
+library(kableExtra) 
+library(wordcloud)
+library(tidytext)
+library(ggplot2)
+library(wordcloud2)
+library(RColorBrewer)
+library(viridis)
+library(tidytext)
+library(stopwords)
+
+```
+
+Importation des données
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# Lecture des fichiers sans afficher les détails des colonnes
+base_emp <- read_csv("data/base_emp.csv", show_col_types = FALSE)
+base_brevets <- read_csv("data/base_brevets.csv", show_col_types = FALSE)
+base_emp_inno <- read_csv("data/base_emp_inno.csv", show_col_types = FALSE)
+```
+
+Pour réaliser l'appariement des deux bases de données, brevets et emploi, nous avons utilisé la fonction full_join en nous appuyant sur la variable commune firm_name.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+base_emp_inno <- full_join(base_brevets, base_emp, by = "firm_name")
+
+# Vérification des premières lignes
+head(base_emp_inno)
+
+```
+
+```{r}
+# Exportation de la base_emp_inno au format CSV
+write.csv(base_emp_inno, "base_emp_inno.csv", row.names = FALSE)
+```
+
+# STATISTIQUES DESCRIPTIVES
+
+### Base brevets
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#n_patents
+
+stat_n_patent<-base_brevets %>%
+  summarise(
+    Moyenne = mean(n_patents, na.rm = TRUE),
+    Ecart_Type = sd(n_patents, na.rm = TRUE),
+    Valeurs_Manquantes = sum(is.na(n_patents)),
+    Minimum=min(n_patents,na.rm=TRUE),
+    Maximum=max(n_patents,na.rm=TRUE))
+# Création d'un tableau HTML stylisé
+kable(stat_n_patent, format = "html", caption = "Statistiques descriptives de n_patents") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+### Cherchons les 5 entreprises ayant déposées le plus de brevets.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+# Trouver les 5 plus grandes valeurs pour la variable "n_patent" et garder la colonne firm_name
+top5_n_patents <- base_brevets %>%
+  arrange(desc(n_patents)) %>%  # Trier par ordre décroissant de n_patent
+  slice_head(n = 5) %>%  # Garde les 5 premières lignes
+  select(firm_name, n_patents)  # Sélectionner uniquement les colonnes firm_name et n_patent
+
+# Création d'un tableau HTML stylisé
+kable(top5_n_patents, format = "html", caption = "Top 5 des enttreprises ayant déposées le plus de brevets") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+### Pour identifier le top 5 des modalités les plus fréquentes parmi les variables de type caractère, nous avons défini une fonction appelée valeurs_frequentes. Cette fonction permet de compter les occurrences et d'extraire les 5 valeurs les plus représentées.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# Fonction pour trouver les 5 valeurs les plus fréquentes pour les variables caractères
+valeurs_frequentes <- function(data, variable, exclude_na = TRUE, top_n = 5) {
+  # Exclure les NA si demandé
+  if (exclude_na) {
+    data <- data %>% filter(!is.na(.data[[variable]]))
+  }
+
+  data %>%
+    group_by(across(all_of(variable))) %>%
+    summarise(count = n(), .groups = "drop") %>%
+    arrange(desc(count)) %>%
+    slice_head(n = 5)
+}
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+top_ipc <- valeurs_frequentes(base_brevets, "ipc_main_desc")
+top_villes <- valeurs_frequentes(base_brevets, "addr_city_main")
+top_depts <- valeurs_frequentes(base_brevets, "addr_dept_main")
+
+# Étape 3 : Création du tableau HTML stylisé
+kable(top_ipc, format = "html", caption = "Top 5 des descriptions des IPC principaux les plus frequents") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "responsive")) %>%
+  row_spec(0, bold = TRUE)  # Mettre en gras la ligne des entêtes
+
+```
+
+## Base emploi
+
+### Statistiques descriptives du nombre d'offre d'emploi
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#n_offres
+
+stat_n_offres <-base_emp %>%
+  summarise(
+    Moyenne = mean(n_offres, na.rm = TRUE),
+    Ecart_Type = sd(n_offres, na.rm = TRUE),
+    Valeurs_Manquantes = sum(is.na(n_offres)),
+    Minimum=min(n_offres,na.rm=TRUE),
+    Maximum=max(n_offres,na.rm=TRUE)
+    )
+# Création d'un tableau HTML stylisé
+kable(stat_n_offres, format = "html", caption = "Statistique n_offres") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#avg_wage
+
+stat_salaire<-base_emp %>%
+  summarise(
+    Moyenne = mean(avg_wage, na.rm = TRUE),
+    Ecart_Type = sd(avg_wage, na.rm = TRUE),
+    Valeurs_Manquantes = sum(is.na(avg_wage)),
+    Minimum=min(avg_wage,na.rm=TRUE),
+    Maximum=max(avg_wage,na.rm=TRUE))
+# Création d'un tableau HTML stylisé
+kable(stat_salaire, format = "html", caption = "Statistique salaire moyen") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+## Base emp_inno
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#n_offres
+
+stat_n_offres_f<-base_emp_inno %>%
+  summarise(
+    Moyenne = mean(n_offres, na.rm = TRUE),
+    Ecart_Type = sd(n_offres, na.rm = TRUE),
+    Valeurs_Manquantes = sum(is.na(n_offres)),
+    Minimum=min(n_offres,na.rm=TRUE),
+    Maximum=max(n_offres,na.rm=TRUE)
+)
+# Création d'un tableau HTML stylisé
+kable(stat_n_offres_f, format = "html", caption = "Statistique n_offres de la fusion des bases") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#n_avg
+stat_salaire_f<-base_emp_inno %>%
+  summarise(
+    Moyenne = mean(avg_wage, na.rm = TRUE),
+    Ecart_Type = sd(avg_wage, na.rm = TRUE),
+    Valeurs_Manquantes = sum(is.na(avg_wage)),
+    Minimum=min(avg_wage,na.rm=TRUE),
+    Maximum=max(avg_wage,na.rm=TRUE)
+)
+# Création d'un tableau HTML stylisé
+kable(stat_salaire_f, format = "html", caption = "Statistique salaire moyen de la fusion des  bases") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#n_patents
+stat_n_patents_f<-base_emp_inno %>%
+  summarise(
+    Moyenne = mean(n_patents, na.rm = TRUE),
+    Ecart_Type = sd(n_patents, na.rm = TRUE),
+    Valeurs_Manquantes = sum(is.na(n_patents)),
+    Minimum=min(n_patents,na.rm=TRUE),
+    Maximum=max(n_patents,na.rm=TRUE)
+)
+# Création d'un tableau HTML stylisé
+kable(stat_n_patents_f, format = "html", caption = "Statistique n_patents de la table fusionnée") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
