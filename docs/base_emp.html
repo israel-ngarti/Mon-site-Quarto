@@ -103,6 +103,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -140,8 +141,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#chargement-des-packages" id="toc-chargement-des-packages" class="nav-link active" data-scroll-target="#chargement-des-packages">Chargement des packages</a></li>
+  <li><a href="#appariement-des-deux-bases" id="toc-appariement-des-deux-bases" class="nav-link" data-scroll-target="#appariement-des-deux-bases">APPARIEMENT DES DEUX BASES</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -171,7 +179,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Chargement des packages</p>
+<section id="chargement-des-packages" class="level2">
+<h2 class="anchored" data-anchor-id="chargement-des-packages">Chargement des packages</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
@@ -465,38 +474,23 @@ Attachement du package : 'dplyr'</code></pre>
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Exportation de la base_emp au format CSV</span></span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(base_emp, <span class="st">"base_emp.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>#APPARIEMENT DES DEUX BASES</p>
+</section>
+<section id="appariement-des-deux-bases" class="level1">
+<h1>APPARIEMENT DES DEUX BASES</h1>
 <p>Pour réaliser l’appariement des deux bases de données, brevets et emploi, nous avons utilisé la fonction full_join en nous appuyant sur la variable commune firm_name.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>base_brevets <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/base_brevets.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>base_emp_inno <span class="ot">&lt;-</span> <span class="fu">full_join</span>(base_brevets, base_emp, <span class="at">by =</span> <span class="st">"firm_name"</span>)</span>
-<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Vérification des premières lignes</span></span>
-<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(base_emp_inno)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 6 × 14
-  firm_name                n_patents ipc_main_code ipc_main_desc ipc_second_code
-  &lt;chr&gt;                        &lt;dbl&gt; &lt;chr&gt;         &lt;chr&gt;         &lt;chr&gt;          
-1 'add-one'                        1 A62B          DEVICES       &lt;NA&gt;           
-2 'apollon solar'                  9 H01L          SEMICONDUCTO… &lt;NA&gt;           
-3 's.a.g.a.c.e.' services…         1 B09B          DISPOSAL OF … &lt;NA&gt;           
-4 1/4 vin                          4 B65B          MACHINES      &lt;NA&gt;           
-5 10-vins                          1 B01F          MIXING        &lt;NA&gt;           
-6 1st surgiconcept                 2 A61B          DIAGNOSIS; S… A61L           
-# ℹ 9 more variables: ipc_second_desc &lt;chr&gt;, addr_city_main &lt;chr&gt;,
-#   addr_dept_main.x &lt;dbl&gt;, n_offres &lt;int&gt;, sector_main &lt;chr&gt;,
-#   avg_req_exp &lt;dbl&gt;, top_skill_req &lt;chr&gt;, avg_wage &lt;dbl&gt;,
-#   addr_dept_main.y &lt;dbl&gt;</code></pre>
-</div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>base_emp_inno <span class="ot">&lt;-</span> <span class="fu">full_join</span>(base_brevets, base_emp, <span class="at">by =</span> <span class="st">"firm_name"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Exportation de la base_emp_inno au format CSV</span></span>
-<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(base_emp_inno, <span class="st">"base_emp_inno.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Exportation de la base_emp_inno au format CSV</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(base_emp_inno, <span class="st">"base_emp_inno.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

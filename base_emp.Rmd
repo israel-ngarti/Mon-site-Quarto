@@ -3,7 +3,8 @@ title: "base_emp"
 output: html_document
 date: "2024-12-10"
 ---
-Chargement des packages
+
+## Chargement des packages
 
 ```{r}
 library(dplyr)
@@ -13,19 +14,15 @@ library(tidyr)
 library(stringi)
 ```
 
-
 ```{r}
 emp_offers <- read_csv("data/emp_offers_fmt.tsv", show_col_types = FALSE)
 ```
-
-
-
-
 
 ```{r}
 # Avoir la liste des entreprises
 distinct(emp_offers, entreprise, .keep_all = FALSE)
 ```
+
 ```{r}
 
 # Harmoniser les noms des entreprises
@@ -78,14 +75,13 @@ distinct(emp_offers, entreprise, .keep_all = FALSE)
   
  filter(!is.na(entreprise) & entreprise != "") # Supprimer les lignes vides ou NA
 ```
+
 ```{r}
 # 3. Suppression des entreprises proposant des freelances
 emp_offers_clean <- emp_offers_clean %>%
   filter(!if_any(c(entreprise, intitule_poste), 
                  ~ str_detect(., regex("freelance", ignore_case = TRUE))))  
 ```
-
-
 
 ```{r}
 # 1. Calcul du nombre d'offres par entreprise
@@ -97,7 +93,6 @@ base_emp <- emp_offers_clean %>%
     .groups = "drop"
   )
 ```
-
 
 ```{r}
 # 2. Identification du secteur principal d'activité
@@ -116,7 +111,6 @@ base_emp <- base_emp %>%
   left_join(sector_main, by = "entreprise")
 ```
 
-
 ```{r}
 # 3. Calcul de l'expérience moyenne requise pour chaque entreprise
 exp_moyenne <- emp_offers_clean %>%
@@ -127,7 +121,6 @@ exp_moyenne <- emp_offers_clean %>%
 base_emp <- base_emp %>%
   left_join(exp_moyenne, by = "entreprise")
 ```
-
 
 ```{r}
 # 4. Extraction de la compétence principale (top_skill_req) pour chaque entreprise
@@ -147,6 +140,7 @@ top_skills <- data_skills %>%
 base_emp <- base_emp %>%
   left_join(top_skills, by = "entreprise")
 ```
+
 ```{r}
 
 # Étape 1: Nettoyage et préparation des salaires
@@ -171,6 +165,7 @@ salaire_base <- salaire_base %>%
   )
 
 ```
+
 ```{r}
 salaire_base <- salaire_base %>%
   group_by(entreprise) %>% # Grouper par entreprise
@@ -184,6 +179,7 @@ salaire_base <- salaire_base %>%
   )
 
 ```
+
 ```{r}
 salaire_base <- salaire_base %>%
   mutate(
@@ -200,7 +196,6 @@ salaire_base <- salaire_base %>%
   )
 
 ```
-
 
 ```{r}
 #5
@@ -246,7 +241,6 @@ base_emp <- base_emp %>%
   left_join(salaire_base, by = "entreprise")
 ```
 
-
 ```{r}
 # 6. Identification du département principal
 dept_main <- emp_offers_clean %>%
@@ -271,37 +265,28 @@ base_emp$entreprise=NULL
 head(base_emp)
 
 ```
+
 ```{r}
 # Exportation de la base_emp au format CSV
 write.csv(base_emp, "base_emp.csv", row.names = FALSE)
 
 ```
 
-#APPARIEMENT DES DEUX BASES
-
+# APPARIEMENT DES DEUX BASES
 
 Pour réaliser l'appariement des deux bases de données, brevets et emploi, nous avons utilisé la fonction full_join en nous appuyant sur la variable commune firm_name.
+
 ```{r}
 base_brevets <- read_csv("data/base_brevets.csv", show_col_types = FALSE)
 
 ```
 
-
 ```{r}
 base_emp_inno <- full_join(base_brevets, base_emp, by = "firm_name")
 
-# Vérification des premières lignes
-head(base_emp_inno)
+```
 
-``` 
 ```{r}
 # Exportation de la base_emp_inno au format CSV
 write.csv(base_emp_inno, "base_emp_inno.csv", row.names = FALSE)
 ```
-
-
-
-
-
-
-

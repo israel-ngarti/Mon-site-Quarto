@@ -83,7 +83,9 @@ ggplot(base_emp_inno_clean, aes(x = n_patents, y = avg_wage)) +
 
 Ce graphique représente la relation entre le nombre de brevets déposés et les salaires moyens. La tendance observée est non linéaire, avec une forme en U inversé. Les entreprises déposant peu de brevets affichent des salaires moyens élevés, tandis que celles ayant un nombre modéré de brevets connaissent une diminution notable des salaires. En revanche, pour les entreprises très innovantes (nombre de brevets supérieur à 4000), les salaires augmentent à nouveau. Cela suggère une relation complexe entre innovation et rémunération, probablement influencée par d'autres facteurs comme la taille de l'entreprise ou le secteur d'activité.
 
-### En fonction des secteurs d'activité
+Top 5 des Secteurs ayant fait beaucoup d'offre d'emploiTop 5 des Secteurs ayant fait beaucoup d'offre d'emploiTop 5 des Secteurs ayant fait beaucoup d'offre d'emploiTop 5 des Secteurs ayant fait beaucoup d'offre d'emploi.
+
+### Top 5 des Secteurs ayant fait beaucoup d'offre d'emploi
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 # Fonction pour trouver les 5 valeurs les plus fréquentes pour les variables caractères
@@ -106,7 +108,7 @@ ggplot(top_sector, aes(x = reorder(sector_main, count), y = count, fill = sector
   geom_bar(stat = "identity", width = 0.7, show.legend = FALSE) +
   coord_flip() +  # Pour des barres horizontales
   labs(
-    title = "Top 5 des Secteurs ayant fait beaucoup d'offre d'emploi",
+    title = "Top 5 des Secteurs ayant fait beaucoup d'offre d'emploiTop",
     x = "Secteurs",
     y = "Nombre d'Entreprises"
   ) +
@@ -122,7 +124,7 @@ ggplot(top_sector, aes(x = reorder(sector_main, count), y = count, fill = sector
 
 Ce graphique montre les 5 secteurs qui ont généré le plus d'offres d'emploi. En tête, le secteur informatique et ESN domine largement, ce qui reflète la forte demande pour des compétences technologiques et numériques. Juste derrière, les Services aux Entreprises occupent la deuxième place, prouvant l’importance des services professionnels. Ensuite, on retrouve la Banque, Assurance, Finance, ainsi que la Distribution et le Commerce de gros, qui restent des secteurs essentiels en termes de création d’emplois. Enfin, le secteur Média, Internet, Communication clôture le top 5, confirmant son rôle dans la demande liée au numérique. La forte disparité avec l’informatique met bien en évidence l’importance de la transformation digitale dans le marché de l’emploi.
 
-Graphique des 5 meilleurs codes IPC par nombre de brevets
+### Top 5 meilleurs codes IPC par nombre de brevets
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 top_ipc_code <- valeurs_frequentes(base_brevets, "ipc_main_code")
@@ -171,7 +173,10 @@ top_skills <- base_emp_inno %>%
   slice_head(n = 10)  # Garder les 10 compétences principales
 kable(top_skills, format = "html", caption = "Top 10 des compétences les plus demandées en fonction n_patents") %>%
   kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
 ```
+
+### Top 10 des Compétences Associées à l'Innovation
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -180,7 +185,8 @@ ggplot(top_skills, aes(x = reorder(top_skill_req, total_patents), y = total_pate
   geom_col(fill = "steelblue", width = 0.7) +
   coord_flip() +
   labs(
-    title = "Top 10 des Compétences Associées à l'Innovation",
+    title = "Top 10 des Compétences Associées à l'Innovation
+  ",
     x = "Compétences",
     y = "Nombre Total de Brevets"
   ) +
