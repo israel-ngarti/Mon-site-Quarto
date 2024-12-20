@@ -1,3 +1,27 @@
-# Bienvenue sur le site portant sur l'analyse de la relation entre l'innovation et les demandes de compétences en data science
+---
+title: "Bienvenue"
+format: html
+---
 
-rm
+# Bienvenue sur notre site web
+
+## Présentation
+
+Notre objectif est d'explorer des questions fascinantes telles que :
+Les entreprises les plus innovantes paient-elles les meilleurs salaires ?
+Demandent-elles davantage de \*\*data scientists\*\* ou de compétences en \*\* machine learning \*\* ?
+Quels secteurs montrent les plus grandes tendances en termes d'innovation et de recrutement ?
+
+Bienvenue sur notre site web dédié à l'analyse des liens entre **innovation d'entreprise** et **demandes de compétences**.
+
+------------------------------------------------------------------------
+
+## Plan du site
+
+-   [**Statistiques Descriptives**](Statistiques Descriptives.html)\
+    Découvrez une analyse détaillée des bases de données, avec des statistiques sur les brevets, les offres d’emploi et leur appariement.
+
+-   [**Analyse des données**](Analyses de Données.html)\
+    Explorez les relations entre innovation et demande de compétences grâce à des visualisations créatives, des graphiques et des word clouds.
+
+------------------------------------------------------------------------

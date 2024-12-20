@@ -1,0 +1,33 @@
+---
+name: Quarto Publish
+
+on:
+  push:
+    branches:
+      - main  # Déclenche l'action à chaque modification sur la branche main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Étape 1 : Cloner le dépôt
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Étape 2 : Installer Quarto
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # Étape 3 : Générer le site
+      - name: Render Site
+        run: quarto render
+
+      # Étape 4 : Déployer sur GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs  # Le dossier généré (par défaut pour GitHub Pages)
+
+---
