@@ -3,7 +3,6 @@ project:
   output-dir: docs  # Spécifiez "docs" comme dossier de sortie
 
 website:
-  title: "Site web"
   navbar:
     left:
       - href: index.qmd
@@ -17,7 +16,7 @@ website:
 format:
   html:
     theme: cayman
-    css: styles.css
+    #css: styles.css
     toc: true
 
 editor: visual
