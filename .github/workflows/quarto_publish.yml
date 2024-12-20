@@ -3,7 +3,7 @@ name: Quarto Publish
 on:
   push:
     branches:
-      - main  # Or the branch where your Quarto project resides
+      - main
 
 jobs:
   build-deploy:
@@ -18,12 +18,12 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # Step 3: Install R packages (if you use R in your Quarto project)
+      # Step 3: Install Required R Packages
       - name: Install R Packages
         run: |
           mkdir -p ~/.R/library
           echo 'R_LIBS_USER="~/.R/library"' >> ~/.Renviron
-          Rscript -e 'install.packages(c("knitr", "rmarkdown"), repos="https://cloud.r-project.org/")'
+          Rscript -e 'install.packages(c("dplyr", "knitr", "rmarkdown"), repos="https://cloud.r-project.org/")'
 
       # Step 4: Render the Quarto site
       - name: Render Site
@@ -34,4 +34,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./ # The directory where Quarto builds the site
+          publish_dir: ./  # Default output directory for Quarto
