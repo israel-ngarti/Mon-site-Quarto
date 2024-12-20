@@ -4,7 +4,7 @@ name: Quarto Publish
 on:
   push:
     branches:
-      - main  # Déclenche l'action à chaque modification sur la branche main
+      - main  # Exécute l'action lorsque la branche "main" est mise à jour
 
 jobs:
   build-deploy:
@@ -28,6 +28,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs  # Le dossier généré (par défaut pour GitHub Pages)
+          publish_dir: ./docs  # Chemin vers le dossier généré par Quarto
 
 ---
