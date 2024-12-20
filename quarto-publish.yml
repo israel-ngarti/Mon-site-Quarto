@@ -21,8 +21,11 @@ jobs:
 
       # Étape 3 : Installer les packages R nécessaires
       - name: Install R Packages
-        run: |
-          Rscript -e 'install.packages(c("knitr", "rmarkdown"), repos="https://cloud.r-project.org/", lib=Sys.getenv("R_LIBS_USER"))'
+  run: |
+    mkdir -p ~/.R/library
+    Rscript -e 'install.packages(c("knitr", "rmarkdown"), lib="~/.R/library", repos="https://cloud.r-project.org/")'
+    echo 'R_LIBS_USER=~/.R/library' >> ~/.Renviron
+
 
       # Étape 4 : Générer le site
       - name: Render Site
