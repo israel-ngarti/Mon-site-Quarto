@@ -3,7 +3,7 @@ name: Quarto Publish
 on:
   push:
     branches:
-      - main  # Déclenche l'action à chaque mise à jour de la branche "main"
+      - main
 
 jobs:
   build-deploy:
@@ -18,11 +18,16 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # Étape 3 : Générer le site
+      # Étape 3 : Installer les packages R nécessaires
+      - name: Install R Packages
+        run: |
+          Rscript -e 'install.packages(c("knitr", "rmarkdown"), repos="https://cloud.r-project.org/")'
+
+      # Étape 4 : Générer le site
       - name: Render Site
         run: quarto render
 
-      # Étape 4 : Déployer sur GitHub Pages
+      # Étape 5 : Déployer sur GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
