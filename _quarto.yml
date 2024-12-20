@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs  # Spécifiez "docs" comme dossier de sortie
 
 website:
   title: "Site web"
