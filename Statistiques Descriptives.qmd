@@ -1,8 +1,5 @@
-Chargement des packages
-
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-
-
+#Chargement des packages
 library(dplyr) 
 library(readr)
 library(stringr)
@@ -22,33 +19,22 @@ library(stopwords)
 
 ```
 
-Importation des données
-
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
+#Importation des données
 # Lecture des fichiers sans afficher les détails des colonnes
 base_emp <- read_csv("data/base_emp.csv", show_col_types = FALSE)
 base_brevets <- read_csv("data/base_brevets.csv", show_col_types = FALSE)
 base_emp_inno <- read_csv("data/base_emp_inno.csv", show_col_types = FALSE)
-```
-
-Pour réaliser l'appariement des deux bases de données, brevets et emploi, nous avons utilisé la fonction full_join en nous appuyant sur la variable commune firm_name.
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
 base_emp_inno <- full_join(base_brevets, base_emp, by = "firm_name")
-
-# Vérification des premières lignes
-head(base_emp_inno)
-
-```
-
-```{r}
 # Exportation de la base_emp_inno au format CSV
 write.csv(base_emp_inno, "base_emp_inno.csv", row.names = FALSE)
 ```
 
 # STATISTIQUES DESCRIPTIVES
 
-### Base brevets
+### 1-Base brevets
+
+### Statistiques descriptives du nombre d'offre d'emploi
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 #n_patents
@@ -65,7 +51,7 @@ kable(stat_n_patent, format = "html", caption = "Statistiques descriptives de n_
   kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```
 
-### Cherchons les 5 entreprises ayant déposées le plus de brevets.
+### Top 5 entreprises ayant déposées le plus de brevets.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -79,8 +65,6 @@ top5_n_patents <- base_brevets %>%
 kable(top5_n_patents, format = "html", caption = "Top 5 des enttreprises ayant déposées le plus de brevets") %>%
   kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```
-
-### Pour identifier le top 5 des modalités les plus fréquentes parmi les variables de type caractère, nous avons défini une fonction appelée valeurs_frequentes. Cette fonction permet de compter les occurrences et d'extraire les 5 valeurs les plus représentées.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 # Fonction pour trouver les 5 valeurs les plus fréquentes pour les variables caractères
@@ -98,6 +82,8 @@ valeurs_frequentes <- function(data, variable, exclude_na = TRUE, top_n = 5) {
 }
 ```
 
+### Top 5 des descriptions des IPC principaux les plus frequents
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 top_ipc <- valeurs_frequentes(base_brevets, "ipc_main_desc")
 top_villes <- valeurs_frequentes(base_brevets, "addr_city_main")
@@ -108,9 +94,28 @@ kable(top_ipc, format = "html", caption = "Top 5 des descriptions des IPC princi
   kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "responsive")) %>%
   row_spec(0, bold = TRUE)  # Mettre en gras la ligne des entêtes
 
+
+
 ```
 
-## Base emploi
+### Top 5 des departements principaux les plus frequents
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+kable(top_depts, format = "html", caption = "Top 5 des departements principaux les plus frequents") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "responsive")) %>%
+  row_spec(0, bold = TRUE)  # Mettre en gras la ligne des entêtes
+```
+
+### Top 5 des villes principales les plus frequentes
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+kable(top_villes, format = "html", caption = "Top 5 des villes principales les plus frequentes") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "responsive")) %>%
+  row_spec(0, bold = TRUE)  # Mettre en gras la ligne des entêtes
+```
+
+## 2- Base emploi
 
 ### Statistiques descriptives du nombre d'offre d'emploi
 
@@ -131,6 +136,8 @@ kable(stat_n_offres, format = "html", caption = "Statistique n_offres") %>%
 
 ```
 
+### Statistiques descriptives des salaires moyens proposés par les entreprises
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 #avg_wage
 
@@ -142,11 +149,51 @@ stat_salaire<-base_emp %>%
     Minimum=min(avg_wage,na.rm=TRUE),
     Maximum=max(avg_wage,na.rm=TRUE))
 # Création d'un tableau HTML stylisé
-kable(stat_salaire, format = "html", caption = "Statistique salaire moyen") %>%
+kable(stat_salaire, format = "html", caption = "Statistiques des salaires moyens") %>%
   kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
 ```
 
-## Base emp_inno
+### Top 5 des entreprises ayant fait beaucoup d'offfres d'emploi
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+# Trouver les 5 plus grandes valeurs pour la variable "n_offres" et garder la colonne firm_name
+top5_n_offres <- base_emp %>%
+  arrange(desc(n_offres)) %>%  # Trier par ordre décroissant de n_patent
+  slice_head(n = 5) %>%  # Garde les 5 premières lignes
+  select(firm_name, n_offres)  # Sélectionner uniquement les colonnes firm_name et n_patent
+
+# Création d'un tableau HTML stylisé
+kable(top5_n_offres, format = "html", caption = "Top 5 des entreprises ayant fait beaucoup d'offfres d'emploi") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+top_sector_main <- valeurs_frequentes(base_emp, "sector_main")
+top_addr_depts <- valeurs_frequentes(base_emp, "addr_dept_main")
+
+# Étape 3 : Création du tableau HTML stylisé
+kable(top_sector_main, format = "html", caption = "Top 5 des secteurs principaux les plus frequents") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "responsive")) %>%
+  row_spec(0, bold = TRUE)  # Mettre en gras la ligne des entêtes
+
+```
+
+### Top 5 des départements les plus fréquents
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# Création du tableau HTML stylisé
+kable(top_addr_depts, format = "html", caption = "Top 5 des départements les plus fréquents") %>%
+  kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover", "responsive")) %>%
+  row_spec(0, bold = TRUE)  # Mettre en gras la ligne des entêtes
+
+```
+
+## 3- Base emp_inno
+
+### Statistiques des nombres d'offres d'emploi de la fusion des bases
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 #n_offres
