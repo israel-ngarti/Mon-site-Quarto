@@ -18,12 +18,16 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # Step 3: Install Required R Packages
+      # Step 3: Install All Required R Packages
       - name: Install R Packages
         run: |
           mkdir -p ~/.R/library
           echo 'R_LIBS_USER="~/.R/library"' >> ~/.Renviron
-          Rscript -e 'install.packages(c("dplyr", "knitr", "rmarkdown"), repos="https://cloud.r-project.org/")'
+          Rscript -e 'install.packages(c(
+            "dplyr", "readr", "stringr", "tidyr", "stringi", "data.table", 
+            "knitr", "kableExtra", "wordcloud", "tidytext", "ggplot2", 
+            "wordcloud2", "RColorBrewer", "viridis", "stopwords"
+          ), repos="https://cloud.r-project.org/")'
 
       # Step 4: Render the Quarto site
       - name: Render Site
