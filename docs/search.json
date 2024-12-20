@@ -44,22 +44,43 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Bienvenue sur notre site web",
+    "title": "Bienvenue sur notre site",
     "section": "",
-    "text": "Notre objectif est d’explorer des questions fascinantes telles que : Les entreprises les plus innovantes paient-elles les meilleurs salaires ? Demandent-elles davantage de **data scientists** ou de compétences en ** machine learning ** ? Quels secteurs montrent les plus grandes tendances en termes d’innovation et de recrutement ?\n\nMOIELWAY NGARTI Israël\n\n\n\n\nStatistiques Descriptives\nDécouvrez une analyse détaillée des bases de données, avec des statistiques sur les brevets, les offres d’emploi et leur appariement.\nAnalyse des données\nExplorez les relations entre innovation et demande de compétences grâce à des visualisations créatives, des graphiques et des word clouds."
+    "text": "Notre objectif est d’explorer des questions fascinantes telles que : Les entreprises les plus innovantes paient-elles les meilleurs salaires ? Demandent-elles davantage de **data scientists** ou de compétences en ** machine learning ** ? Quels secteurs montrent les plus grandes tendances en termes d’innovation et de recrutement ?\n\n\n\n\n\nAnalyser les données : Identifier des tendances et des patterns cachés dans les bases de données.\nVisualisation intuitive : Offrir des graphiques et des visualisations interactives pour rendre les résultats accessibles.\n\n\n\n\n\nExplorez nos analyses et résultats via les sections ci-dessous :\n\nStatistiques Descriptives\nDécouvrez une analyse détaillée des bases de données, avec des statistiques sur les brevets, les offres d’emploi et leur appariement.\nAnalyse des données\nExplorez les relations entre innovation et demande de compétences grâce à des visualisations créatives, des graphiques et des word clouds.\n\n\n\n\n\nCe projet utilise des technologies modernes pour garantir la précision et la clarté de nos analyses :\n\nR & Quarto : Analyse et visualisation des données.\nggplot2 & wordcloud2 : Création de graphiques et visualisations.\nGitHub Pages : Hébergement et déploiement du site.\n\n\n\n\n\nPour toute question ou suggestion, n’hésitez pas à nous contacter. Nous sommes ouverts aux collaborations et aux discussions !\n\nBonnes explorations sur notre site !"
   },
   {
-    "objectID": "index.html#présentation",
-    "href": "index.html#présentation",
-    "title": "Bienvenue sur notre site web",
+    "objectID": "index.html#présentation-du-projet",
+    "href": "index.html#présentation-du-projet",
+    "title": "Bienvenue sur notre site",
     "section": "",
-    "text": "Notre objectif est d’explorer des questions fascinantes telles que : Les entreprises les plus innovantes paient-elles les meilleurs salaires ? Demandent-elles davantage de **data scientists** ou de compétences en ** machine learning ** ? Quels secteurs montrent les plus grandes tendances en termes d’innovation et de recrutement ?\n\nMOIELWAY NGARTI Israël"
+    "text": "Notre objectif est d’explorer des questions fascinantes telles que : Les entreprises les plus innovantes paient-elles les meilleurs salaires ? Demandent-elles davantage de **data scientists** ou de compétences en ** machine learning ** ? Quels secteurs montrent les plus grandes tendances en termes d’innovation et de recrutement ?"
   },
   {
-    "objectID": "index.html#plan-du-site",
-    "href": "index.html#plan-du-site",
-    "title": "Bienvenue sur notre site web",
+    "objectID": "index.html#objectifs-du-projet",
+    "href": "index.html#objectifs-du-projet",
+    "title": "Bienvenue sur notre site",
     "section": "",
-    "text": "Statistiques Descriptives\nDécouvrez une analyse détaillée des bases de données, avec des statistiques sur les brevets, les offres d’emploi et leur appariement.\nAnalyse des données\nExplorez les relations entre innovation et demande de compétences grâce à des visualisations créatives, des graphiques et des word clouds."
+    "text": "Analyser les données : Identifier des tendances et des patterns cachés dans les bases de données.\nVisualisation intuitive : Offrir des graphiques et des visualisations interactives pour rendre les résultats accessibles."
+  },
+  {
+    "objectID": "index.html#naviguez-sur-le-site",
+    "href": "index.html#naviguez-sur-le-site",
+    "title": "Bienvenue sur notre site",
+    "section": "",
+    "text": "Explorez nos analyses et résultats via les sections ci-dessous :\n\nStatistiques Descriptives\nDécouvrez une analyse détaillée des bases de données, avec des statistiques sur les brevets, les offres d’emploi et leur appariement.\nAnalyse des données\nExplorez les relations entre innovation et demande de compétences grâce à des visualisations créatives, des graphiques et des word clouds."
+  },
+  {
+    "objectID": "index.html#technologies-utilisées",
+    "href": "index.html#technologies-utilisées",
+    "title": "Bienvenue sur notre site",
+    "section": "",
+    "text": "Ce projet utilise des technologies modernes pour garantir la précision et la clarté de nos analyses :\n\nR & Quarto : Analyse et visualisation des données.\nggplot2 & wordcloud2 : Création de graphiques et visualisations.\nGitHub Pages : Hébergement et déploiement du site."
+  },
+  {
+    "objectID": "index.html#contactez-nous",
+    "href": "index.html#contactez-nous",
+    "title": "Bienvenue sur notre site",
+    "section": "",
+    "text": "Pour toute question ou suggestion, n’hésitez pas à nous contacter. Nous sommes ouverts aux collaborations et aux discussions !\n\nBonnes explorations sur notre site !"
   }
 ]

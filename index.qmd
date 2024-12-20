@@ -1,17 +1,29 @@
-# Bienvenue sur notre site web
+---
+title: "Bienvenue sur notre site"
+format: html
+editor: visual
+---
 
-## Présentation
-
-Notre objectif est d'explorer des questions fascinantes telles que :
-Les entreprises les plus innovantes paient-elles les meilleurs salaires ?
-Demandent-elles davantage de \*\*data scientists\*\* ou de compétences en \*\* machine learning \*\* ?
-Quels secteurs montrent les plus grandes tendances en termes d'innovation et de recrutement ?
+# Bienvenue sur notre site
 
 ------------------------------------------------------------------------
 
-MOIELWAY NGARTI Israël
+## Présentation du projet
 
-## Plan du site
+Notre objectif est d'explorer des questions fascinantes telles que : Les entreprises les plus innovantes paient-elles les meilleurs salaires ? Demandent-elles davantage de \*\*data scientists\*\* ou de compétences en \*\* machine learning \*\* ? Quels secteurs montrent les plus grandes tendances en termes d'innovation et de recrutement ?
+
+------------------------------------------------------------------------
+
+## Objectifs du projet
+
+-   **Analyser les données** : Identifier des tendances et des patterns cachés dans les bases de données.
+-   **Visualisation intuitive** : Offrir des graphiques et des visualisations interactives pour rendre les résultats accessibles.
+
+------------------------------------------------------------------------
+
+## Naviguez sur le site
+
+Explorez nos analyses et résultats via les sections ci-dessous :
 
 -   [**Statistiques Descriptives**](Statistiques Descriptives.html)\
     Découvrez une analyse détaillée des bases de données, avec des statistiques sur les brevets, les offres d’emploi et leur appariement.
@@ -20,3 +32,21 @@ MOIELWAY NGARTI Israël
     Explorez les relations entre innovation et demande de compétences grâce à des visualisations créatives, des graphiques et des word clouds.
 
 ------------------------------------------------------------------------
+
+## Technologies utilisées
+
+Ce projet utilise des technologies modernes pour garantir la précision et la clarté de nos analyses :
+
+-   **R & Quarto** : Analyse et visualisation des données.
+-   **ggplot2 & wordcloud2** : Création de graphiques et visualisations.
+-   **GitHub Pages** : Hébergement et déploiement du site.
+
+------------------------------------------------------------------------
+
+## Contactez-nous
+
+Pour toute question ou suggestion, n'hésitez pas à nous contacter. Nous sommes ouverts aux collaborations et aux discussions !
+
+------------------------------------------------------------------------
+
+**Bonnes explorations sur notre site !**
